@@ -34,6 +34,7 @@ interestingTags=(
                  'sub',
                  'sup',
                  'textarea',
+                 'time',
                  'tt',
                  'u',
                  'var',
@@ -62,10 +63,25 @@ interestingTags=(
                  'section',
                  'wbr'  
                  'tr',
-                 'td' 
+                 'td',
+                 'script',
+                 'frame',
+                 'iframe',
+                 'style', 
                  )
 
 notClosedTags=(
                'br',
-               'hr'
+               'hr',
                )
+
+badTags=(
+         'script',
+         'frame',
+         'iframe',
+         'style',
+         'nav',
+         'header',
+         'footer',
+         'aside',
+         )

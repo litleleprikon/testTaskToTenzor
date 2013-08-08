@@ -1,6505 +1,1616 @@
 body attrs: []
 
+a attrs: [('style', 'background: #5ebc95 url(/images/banners/bs2.png) no-repeat center center;display:block;height:90px;box-shadow:0 1px 2px #ccc;'), ('href', 'http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&ad=414418&bt=21&bid=2747457&bn=2747457&rnd=691805593')]
 
+div attrs: [('id', 'layout')]
 
+div attrs: [('id', 'header')]
 
+div attrs: [('class', 'userpanel silver')]
 
+a attrs: [('href', 'http://habrahabr.ru/login/'), ('class', 'login')]
+РІРѕР№С‚Рё
 
+a attrs: [('href', 'http://habrahabr.ru/register/')]
+Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°С‚СЊСЃСЏ
 
 
- 
+a attrs: [('class', 'logo mainpage'), ('href', 'http://habrahabr.ru/'), ('title', 'РќР° РіР»Р°РІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ')]
 
+div attrs: [('class', 'search')]
 
 
+input attrs: [('type', 'submit'), ('value', '')]
 
+input attrs: [('type', 'text'), ('name', 'q'), ('x-webkit-speech', None), ('speech', None), ('tabindex', '1')]
 
 
 
+div attrs: [('class', 'main_menu')]
 
+a attrs: [('href', 'http://habrahabr.ru/posts/top/'), ('class', 'active')]
+РїРѕСЃС‚С‹
+a attrs: [('href', 'http://habrahabr.ru/qa/')]
+q
+a
+a attrs: [('href', 'http://habrahabr.ru/events/coming/')]
+СЃРѕР±С‹С‚РёСЏ
+a attrs: [('href', 'http://habrahabr.ru/hubs/')]
+С…Р°Р±С‹
+a attrs: [('href', 'http://habrahabr.ru/companies/')]
+РєРѕРјРїР°РЅРёРё
 
+div attrs: [('class', 'banner_special')]
 
 
 
 
 
+div attrs: [('class', 'content_left')]
 
+table attrs: [('class', 'menu')]
 
 
+td attrs: [('class', 'item all active')]
 
-div attrs: [('class', 'adv adv_720x90'), ('id', 'adv_720x90'), ('style', 'background:transparent;box-shadow:none')]
+a attrs: [('href', 'http://habrahabr.ru/posts/top/')]
+span attrs: [('class', 'name')]
+Р›СѓС‡С€РёРµ
 
 
+td attrs: [('class', 'item collective')]
 
+a attrs: [('href', 'http://habrahabr.ru/posts/collective/')]
+span attrs: [('class', 'name')]
+РўРµРјР°С‚РёС‡РµСЃРєРёРµ
 
 
+td attrs: [('class', 'item corporative')]
 
- 
+a attrs: [('href', 'http://habrahabr.ru/posts/corporative/')]
+span attrs: [('class', 'name')]
+РљРѕСЂРїРѕСЂР°С‚РёРІРЅС‹Рµ
 
 
 
-var userAgent = navigator.userAgent;
-if( !userAgent.match( /ipad|iphone|htc|android|windows\s+phone/i ) ) {
-var solDivId = 'adv_720x90';
-var isiPad = navigator.userAgent.match(/iPad/i) != null;
-if (typeof(document) != 'undefined') {
-if (typeof(document.getElementById) != 'undefined') {
-var solDiv = document.getElementById(solDivId);
-var solIsDefault = solDiv.innerHTML.indexOf('yandsparent.gif') != -1;
-if (solIsDefault&&!isiPad) {
-solDiv.style.display = 'none';
-document.write('<div id="yandex_ad_R-108310-1" align="center"></div>');
-(function(w, d, n, s, t) {
-w[n] = w[n] || [];
-w[n].push(function() {
-Ya.Context.AdvManager.render({
-blockId: "R-108310-1",
-renderTo: "yandex_ad_R-108310-1",
-async: true
-});
-});
-t = d.getElementsByTagName("script")[0];
-s = d.createElement("script");
-s.type = "text/javascript";
-s.src = "//an.yandex.ru/system/context.js";
-s.async = true;
-t.parentNode.insertBefore(s, t);
-})(this, this.document, "yandexContextAsyncCallbacks");
-}
-}
-}
-}
 
+div attrs: [('class', 'submenu ')]
 
+div attrs: [('class', 'item  active')]
 
+a attrs: [('href', 'http://habrahabr.ru/posts/top/daily/')]
+span attrs: [('class', 'name')]
+Р—Р° СЃСѓС‚РєРё
 
 
+div attrs: [('class', 'item ')]
 
+a attrs: [('href', 'http://habrahabr.ru/posts/top/weekly/')]
+span attrs: [('class', 'name')]
+Р—Р° РЅРµРґРµР»СЋ
 
 
+div attrs: [('class', 'item ')]
 
-div attrs: [('class', 'main_frame cf')]
-header attrs: []
+a attrs: [('href', 'http://habrahabr.ru/posts/top/monthly/')]
+span attrs: [('class', 'name')]
+Р—Р° РјРµСЃСЏС†
 
-div attrs: [('class', 'counters')]
 
+div attrs: [('class', 'item ')]
 
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-1268585-1']);
-_gaq.push(['_trackPageview']);
-/* Decrease bounce rate on first page */
-if (document.referrer.indexOf(location.hostname) < 0)
-setTimeout('_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 15 seconds\'])', 15000);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+a attrs: [('href', 'http://habrahabr.ru/posts/top/alltime/')]
+span attrs: [('class', 'name')]
+Р—Р° РІСЃС‘ РІСЂРµРјСЏ
 
 
 
-div attrs: [('style', 'display:none;')]
-(function(w, c) {
-(w[c] = w[c] || []).push(function() {
-try {
-w.yaCounter230672 = new Ya.Metrika({id:230672, enableAll: true, webvisor:true});
-}
-catch(e) { }
-});
-})(window, "yandex_metrika_callbacks");
+div attrs: [('class', 'clear')]
 
+div attrs: [('class', 'posts_list')]
 
-div attrs: []
+div attrs: [('class', 'posts shortcuts_items')]
 
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189328')]
 
- 
+div attrs: [('class', 'published')]
+РІС‡РµСЂР° РІ 17:07
 
+h1 attrs: [('class', 'title')]
 
+a attrs: [('href', 'http://habrahabr.ru/post/189328/'), ('class', 'post_title')]
+Р’РѕСЂРѕРЅРµР¶РµС† Р·Р°РєР»СЋС‡РёР» СЃ Р±Р°РЅРєРѕРј РґРѕРіРѕРІРѕСЂ, РІРЅРµСЃСЏ СЃРІРѕРё РїСЂР°РІРєРё, Рё СЃРѕР±РёСЂР°РµС‚СЃСЏ РѕС‚СЃСѓРґРёС‚СЊ 24 РјРёР»Р»РёРѕРЅР° СЂСѓР±Р»РµР№
 
 
+div attrs: [('class', 'hubs')]
 
+a attrs: [('href', 'http://habrahabr.ru/hub/finance/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р¤РёРЅР°РЅСЃС‹ РґР»СЏ РІСЃРµС…
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/Dura_Lex/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Dura Lex
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/hr/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Human Resources
 
-var img = new Image();
-img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*sup_ru/ru/CP1251/tmsec=gazeta_politics/';
 
+div attrs: [('class', 'content html_format')]
 
-
-
-
-
-
-
-
-div attrs: [('class', 'b-soc_buttons')]
-
-ul attrs: []
-
-a attrs: [('href', 'http://www.gazeta.ru/mobile/'), ('style', 'line-height:12px;')]
-Мобильные
-br attrs: []
-приложения
-
-a attrs: [('href', '/export_news.shtml')]
-RSS
-
-a attrs: [('title', 'Добавить в закладки'), ('onmouseover', "self.status='Добавить в закладки';return true"), ('onmouseout', "self.status=''"), ('href', 'javascript:void(0);'), ('onclick', 'return bookmark(this);')]
-В закладки
-
-
-
-input attrs: [('type', 'hidden'), ('name', 'p'), ('value', 'search')]
-
-input attrs: [('type', 'hidden'), ('name', 'how'), ('value', 'pt')]
-
-input attrs: [('type', 'text'), ('name', 'text'), ('placeholder', 'Поиск'), ('class', 'window')]
-
-input attrs: [('type', 'image'), ('class', 'lupa'), ('alt', 'Искать'), ('title', 'Искать'), ('src', 'http://static.gazeta.ru/nm2012/i/0.png')]
-
-
-
-span attrs: []
-18+
-
-a attrs: [('href', 'http://lj.gazeta.ru'), ('target', '_blank')]
-
-a attrs: [('href', 'http://youtube.com/gazetaru'), ('target', '_blank')]
-
-a attrs: [('href', 'https://plus.google.com/b/105541962280031022515/105541962280031022515/posts'), ('target', '_blank')]
-
-a attrs: [('href', 'http://vk.com/gazeta'), ('target', '_blank')]
-
-a attrs: [('href', 'http://www.twitter.com/gazetaru'), ('target', '_blank')]
-
-a attrs: [('href', 'http://www.facebook.com/gazeta.ru'), ('target', '_blank')]
-
-
-
-div attrs: [('class', 'b-main_logo')]
-
-div attrs: [('class', 'logo')]
-a attrs: [('href', '/')]
-
-div attrs: [('style', 'text-align:right;width:150px;float:left;')]
-
-div attrs: [('align', 'right'), ('style', 'height: 77px; margin-right: 10px; overflow: hidden; padding: 0 10px;')]
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-div attrs: [('class', 'right_widjet')]
-
-p attrs: [('class', 'date')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8 августа 2013 00:08
+РќР°РІРµСЂРЅРѕРµ, РЅРµС‚ С‡РµР»РѕРІРµРєР°, РєРѕС‚РѕСЂРѕРіРѕ Р±С‹ РЅРµ СЂР°Р·РґСЂР°Р¶Р°Р»Рѕ, С‡С‚Рѕ СЃР°РјС‹Рµ РІР°Р¶РЅС‹Рµ РїСѓРЅРєС‚С‹ РІ РґРѕРіРѕРІРѕСЂР°С… РІСЃРµРіРґР° РїРёС€СѓС‚СЃСЏ В«РјРµР»РєРёРј С€СЂРёС„С‚РѕРјВ».
 br attrs: []
 
+br attrs: []
+РќРѕ, Р·РЅР°СЏ РѕР± СЌС‚РѕРј, СЂР°Р· Р·Р° СЂР°Р·РѕРј РјРЅРѕРіРёРµ Р»СЋРґРё РїРѕРґРїРёСЃС‹РІР°СЋС‚ Р±СѓРјР°РіРё, РЅРµ РїСЂРѕС‡РёС‚Р°РІ РёС… РІРЅРёРјР°С‚РµР»СЊРЅРѕ, Рё РїР»Р°С‚СЏС‚ РєРѕРјРёСЃСЃРёРё, Рѕ РєРѕС‚РѕСЂС‹С… РЅРµ РґРѕРіР°РґС‹РІР°Р»РёСЃСЊ.
+br attrs: []
 
-p attrs: [('class', 'exchange_rate')]
+br attrs: []
+42-Р»РµС‚РЅРёР№ Р¶РёС‚РµР»СЊ Р’РѕСЂРѕРЅРµР¶Р° РЅР°С€РµР» РѕСЃС‚СЂРѕСѓРјРЅС‹Р№ СЃРїРѕСЃРѕР± РѕР±СЂР°С‚РёС‚СЊ СЌС‚Сѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РІ СЃРІРѕСЋ РїРѕР»СЊР·Сѓ Рё С‚РµРїРµСЂСЊ, РїРѕР»СЊР·СѓСЏСЃСЊ РЅРµРІРЅРёРјР°С‚РµР»СЊРЅРѕСЃС‚СЊСЋ Р±Р°РЅРєРёСЂРѕРІ, СЃРѕР±РёСЂР°РµС‚СЃСЏ РѕС‚СЃСѓРґРёС‚СЊ Сѓ РЅРёС… 24 РјРёР»Р»РёРѕРЅР° СЂСѓР±Р»РµР№.
+br attrs: []
 
-ЦБ
-span attrs: [('class', 'curency')]
-USD
+div attrs: [('class', 'buttons')]
 
-span attrs: [('class', 'rating_up_arrow')]
-32.9390 (+0.0579);
-span attrs: [('class', 'curency')]
-EUR
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189328/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
 
-span attrs: [('class', 'rating_down_arrow')]
-43.6574 (-0.0054)
 
-p attrs: [('class', 'weather')]
+div attrs: [('class', 'clear')]
 
 
+div attrs: [('class', 'infopanel_wrapper')]
 
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189328')]
 
+div attrs: [('class', 'voting   ')]
 
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
-a attrs: [('title', '15...17 °C\nЯсно, без осадков\nВетер С-В, 1-3 м/c\nДавление 749-751 мм рт.ст.\nВлажность воздуха 92 - 97%')]
+div attrs: [('class', 'mark')]
 
-span attrs: [('class', 'city')]
-Москва:
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
 
-span attrs: [('class', 'weather_state'), ('style', 'background-position:0 -1px')]
 
-Ясно, без осадков,
-15...17
-С
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
 
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+289591
 
+div attrs: [('class', 'favorite')]
 
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
 
 
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+371
 
-div attrs: [('class', 'b-navbar m-navbar_level1')]
+div attrs: [('class', 'author')]
 
-nav attrs: []
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/veveve/')]
+veveve
 
-ul attrs: []
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+423,3
 
 
-a attrs: [('href', '/politics/'), ('class', 'stripe')]
-Политика
+div attrs: [('class', 'comments')]
 
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189328/#comments')]
+span attrs: [('class', 'all')]
+725
 
-a attrs: [('href', '/business/'), ('class', 'stripe')]
-Бизнес
 
 
-a attrs: [('href', '/social/'), ('class', 'stripe')]
-Общество
 
+div attrs: [('class', 'clear')]
 
-a attrs: [('href', '/comments/'), ('class', 'stripe')]
-Мнения
 
 
-a attrs: [('href', '/culture/'), ('class', 'stripe')]
-Культура
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189402')]
 
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 11:20
 
-a attrs: [('href', '/science/'), ('class', 'stripe')]
-Наука
+h1 attrs: [('class', 'title')]
 
+a attrs: [('href', 'http://habrahabr.ru/post/189402/'), ('class', 'post_title')]
+Р’СЃС‘В РіР»СѓР±Р¶Рµ РёВ РіР»СѓР±Р¶Рµ SOPA, РІСЃС‘В РјСЂР°С‡РЅРµРµВ РіСЂСЏРґСѓС‰РµРµ
 
-a attrs: [('href', '/auto/'), ('class', 'stripe')]
-Авто
 
+div attrs: [('class', 'hubs')]
 
-a attrs: [('href', '/sport/'), ('class', 'stripe')]
-Спорт
-
-
-a attrs: [('href', '/tech/'), ('class', 'stripe')]
-Технологии
-
-
-a attrs: [('href', '/travel/'), ('class', 'stripe')]
-Путешествия
-
-
-a attrs: [('href', '/realty/'), ('class', 'stripe')]
-Недвижимость
-
-
-a attrs: [('href', '/health/'), ('class', 'stripe')]
-Здоровье
-
-
-
-
-
-
-div attrs: [('class', 'b-navbar m-navbar_level2')]
-
-nav attrs: []
-
-ul attrs: []
-
-
-a attrs: [('href', '/politics/news/'), ('class', 'stripe')]
-Новости
-
-
-a attrs: [('href', '/politics/themes/r_3299906.shtml'), ('class', 'stripe')]
-Внешняя политика
-
-
-a attrs: [('href', '/politics/themes/r_2003408.shtml'), ('class', 'stripe')]
-В мире
-
-
-a attrs: [('href', '/politics/state_power/'), ('class', 'stripe')]
-Власть
-
-
-a attrs: [('href', '/politics/themes/r_2684292.shtml'), ('class', 'stripe')]
-Оппозиция
-
-
-a attrs: [('href', '/politics/themes/r_2003401.shtml'), ('class', 'stripe')]
-Регионы
-
-
-a attrs: [('href', '/politics/themes/r_2003399.shtml'), ('class', 'stripe')]
-Партии
-
-
-a attrs: [('href', '/politics/themes/r_3661921.shtml'), ('class', 'stripe')]
-Исследование
-
-
-a attrs: [('href', '/politics/themes/r_2003404.shtml'), ('class', 'stripe')]
-Скандал
-
-
-
-
-
-
-
-nav attrs: [('class', 'b-subjects_nav')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'day_subject')]
-
-Сюжет дня:
-a attrs: [('href', '/subjects/2804909.shtml')]
-
-
-Россия
-- Грузия
-
-
-
-
-
-
-
-ul attrs: []
-
-a attrs: [('href', '/news/')]
-Новости дня
-
-a attrs: [('href', '/photo/')]
-Фоторепортажи
-
-a attrs: [('href', '/video/')]
-Видео
-
-a attrs: [('href', '/infographics/')]
-Инфографика
-
-a attrs: [('href', '/startup/')]
-Проект «Стартап»
-
-
-
-div attrs: [('style', 'clear:both;')]
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-div attrs: [('class', 'c710 ml0')]
-
-article attrs: [('class', 'b-article'), ('data-main', '1')]
-
-div attrs: [('style', 'display:none;')]
-2003404
-
-
-
-
-
-
-
-
-
-
-h3 attrs: [('class', 'dh')]
-a attrs: [('href', '/politics')]
-Политика
-span attrs: [('class', 'ml5 mr5')]
-a attrs: [('href', '/subjects/regiony_2013.shtml')]
-Выборы в регионах
-2013
-
-
-
-div attrs: [('class', 'cf mb10')]
-
-h2 attrs: [('class', 'article_name')]
-Обрезание по-владимирски
-
-h1 attrs: [('class', 'article_subheader')]
-Избирком Владимирской области массово снимает с выборов кандидатов от партий, чьи списки уже зарегистрированы
-
-div attrs: [('id', 'lj_send'), ('style', 'display:none')]
-
-
-input attrs: [('type', 'text'), ('name', 'subject'), ('value', 'Обрезание по-владимирски ')]
-
-textarea attrs: [('name', 'event'), ('id', 'lj_send_event')]
-
-div attrs: [('style', 'background-color:#fff;padding:10px;margin:0;display:table;')]
-
-div attrs: [('style', 'border-bottom:1px solid #cccccc;')]
-
-a attrs: [('href', 'http://www.gazeta.ru')]
-
-p attrs: [('style', 'padding:10px 0 5px 0;margin:0;color:#939fa7;font-family:Arial;font-size:12px;')]
-07.08.2013, 23:44
-
-
-div attrs: [('style', 'padding:20px 0 0 0;')]
-
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml')]
-
-div attrs: [('style', 'width:100%;')]
-
-h2 attrs: [('style', 'padding:0;margin:0 0 5px 0;')]
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml'), ('style', 'font-family:Arial;font-size:19px;color:#671a1d;text-decoration:none;')]
-Обрезание по-владимирски
-
-p attrs: [('style', 'padding:0;margin:0;')]
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml'), ('style', 'font-family:Arial;font-size:13px;color:#000000;text-decoration:none;')]
-Избирком Владимирской области снял с выборов в местное заксобрание десятки кандидатов от разных партий, списки которых...
-
-p attrs: []
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml'), ('style', 'font-family:Arial;font-size:13px;color:#cccccc;text-decoration:underline;')]
-http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml
-
-
-
-
-
-
-
-$(document).ready(function() {
-$(".lj_new_send").click(function(){
-var text = $("#lj_send_event").val();
-text = text.replace(/[\r\n\t]/g," ");
-$("#lj_send_event").text(text);
-$("#lj_send_form").submit();
-return false;
-});
-});
-
-.b-social_like_buttons li {position:relative;}
-ul attrs: [('class', 'b-social_like_buttons cf ')]
-div attrs: [('class', 'fb-like'), ('data-send', 'false'), ('data-layout', 'button_count'), ('data-width', '140'), ('data-show-faces', 'false'), ('data-action', 'recommend')]
-div attrs: [('class', 'g-plusone'), ('data-size', 'medium')]
-div attrs: [('id', 'vk_like')]
-a attrs: [('href', 'http://twitter.com/share'), ('class', 'twitter-share-button'), ('data-count', 'horizontal'), ('data-counturl', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml'), ('data-via', 'gazetaru'), ('data-related', '')]
-Tweet
-a attrs: [('class', 'lj_new lj_new_send'), ('id', 'lj_new'), ('href', '#'), ('title', 'Отправить в Livejournal')]
-
-a attrs: [('href', '#comments'), ('class', 'button_give_comments')]
-Написать комментарий
-a attrs: [('href', '#comments'), ('title', '2\xa0комментария')]
-span attrs: [('class', 'comments_info_arrowed')]
-2
-
-div attrs: [('class', 'b-media b-photoreport_inside photoreport')]
-
-
-
-
-
-div attrs: [('class', 'picture')]
-
-
-
-
-
-
-
-
-Избирком Владимирской области снял с выборов в местное заксобрание десятки кандидатов от разных партий
-
-
-
-
-div attrs: [('class', 'info')]
-
-
-p attrs: [('class', 'pic_src')]
-Фотография:
-span attrs: [('id', 'photoreport_pic_src')]
-Виктор Клюшкин/ИТАР-ТАСС
-
-07.08.2013, 23:44
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|
-span attrs: [('rel', 'author')]
-a attrs: [('href', '/gazeta/authors/ekaterina_vinokurova.shtml')]
-Екатерина Винокурова
-
-
-
-
-div attrs: [('style', 'clear:both')]
-
-div attrs: [('class', 'text')]
-
-p attrs: []
-span attrs: [('class', 'intro')]
-Избирком Владимирской области снял с выборов в местное заксобрание десятки кандидатов от разных партий, списки которых уже зарегистрированы. Для этого комиссия нашла целый ряд формальных причин. Так, пострадали кандидаты-женщины, менявшие фамилию после замужества, партийцы, предоставившие справку
-неустановленного образца
-об образовании, а также домохозяйки, не сумевшие доказать, что
-временно не работают
-. Эксперт считает, что власть занимается точечной чисткой списков, неугодных партии. Администрация президента советует кандидатам немедленно обжаловать решение: возможно, ЦИК встанет на их сторону.
-
-p attrs: []
-Во Владимирской области избирком массово отказал в регистрации кандидатам из списков разных партий
-«
-a attrs: [('class', 'tag'), ('href', '/tags/yabloko.shtml')]
-Яблока
-», «Альянса Зеленых», КПРФ, «Рожденных в СССР», Российской экологической партии «Зеленые» и «Справедливой России». Ранее отказ в регистрации списков на выборах в областной парламент получили «Гражданская сила», «Коммунисты России», Партия духовного преображения России, «Российский общественный союз», Трудовая партия России и Российская партия садоводов.
-p attrs: []
-«Газета.Ru» внимательно изучила все отказы в регистрации отдельным кандидатам, входившим в партийные списки, и обнаружила, что большинство из них снято по довольно формальным основаниям, которые можно разделить на несколько категорий.
-p attrs: []
-Первая
-отказ кандидатам-женщинам, после замужества менявшим фамилию. Комиссия признала недействительными их дипломы о высшем образовании. На таких основаниях было отказано в регистрации, например, представительницам «Справедливой России» Марине Рыжовой (Орловой), Клавдии Григорьевой (Гуреевой), Ольге Стрелецкой (Егоровой), Олесе Филипповой (Заболотной); яблочницам Майе Грибовой (Шульман), Елене Прошкиной (Беляевой), Розе Чурдалаевой (Салаевой), представительнице Экологической партии Надежде Сельцовой (Балашовой) и ряду других кандидатов.
-p attrs: []
-Вторая
-отказ кандидатам из-за того, что комиссия посчитала неверными сведения об образовании кандидата. Так, коммунистке Елизавете Бундиной, указавшей в графе «образование» «неоконченное высшее» и подтвердившей это справкой из вуза, где она учится на заочном отделении, отказали на основании того, что справка, по мнению комиссии, была неустановленного образца. В такой же ситуации оказался кандидат от СР Андрей Маринин. Кандидат от «Альянса Зеленых» Алексей Новицкий написал, что имеет «полное среднее» образование, и представил справку из школы о неполном среднем и диплом ПТУ о «начальном профессиональном» образовании, за что тоже получил отказ. Кандидат от «Яблока» Николай Фадеев указал в графе «образование» «среднее полное» и подтвердил это школьным дипломом о «среднем общем» образовании, что избирком также счел недопустимым нарушением.
-p attrs: []
-Третье
-отказ кандидатам, чьи сведения о месте работы или роде занятий комиссия посчитала недостоверными. Так, например, справедливоросс Андрей Савин в качестве подтверждения того, что он работает адвокатом, принес справку из Владимирской коллегии адвокатов, но избирком придрался к тому, что к справке не прилагается копия адвокатского удостоверения. Представитель «Альянса Зеленых» Жанна Логинова указала, что работает «индивидуальным предпринимателем», и в доказательство представила справку о постановке ее как физлица на учет в налоговой службе с присвоением ИНН, что комиссия сочла
-легковесным доказательством
-.
-p attrs: []
-Массово было отказано всем кандидатам, указавшим статус «временно не работающий» или «домохозяйка» и не сумевшим добыть справку, которая могла бы это подтвердить.
-p attrs: []
-span attrs: [('class', 'idea')]
-Член ЦК КПРФ, депутат Госдумы Сергей Обухов сказал «Газете.Ru», что Владимирская областная избирательная комиссия уже не первый год пользуется крайне нелицеприятной репутацией.
-p attrs: []
-«На прошлых выборах было то же самое, мы тогда дошли с жалобами до Центризбиркома, и всех зарегистрировали. В этот раз тоже будем обжаловать до последней инстанции»,
-сказал Обухов.
-p attrs: []
-Член бюро партии «Яблоко» Алексей Мельников в разговоре с изданием также заявил, что, по всей вероятности, партия обжалует отказ в регистрации отдельных кандидатов, однако признал, что во Владимирской области наблюдаются крайне печальные тенденции.
-p attrs: []
-«Первая тенденция
-вместо того чтобы взять курс на постепенное изменение системы, было принято решение продолжать линию, господствовавшую до 2011 года. Пар просто загоняют под крышку, и это очень плохо. Вторая тенденция
-видимо, администрация президента сработала слабо, раз изменить ситуацию они не могут (ранее
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/04_a_5540129.shtml')]
-b attrs: []
-в АП неоднократно заверяли
-, что готовы сделать все, чтобы до региональных выборов было допущено максимальное количество партий
-
-Газета.Ru
-)»,
-мрачно констатировал Мельников.
-p attrs: []
-Руководитель региональных программ Фонда развития информационной политики Александр Кынев сказал «Газете.Ru», что Владимирской облизбирком демонстрирует избирательный подход к «чистке» списков, точно так же, как, например, это делается в Якутии.
-p attrs: []
-span attrs: [('class', 'idea')]
-Технология такова: партийный список регистрируют, но потом из него начинают «точечно» исключать кандидатов, чтобы максимально его ослабить к выборам, рассказывает эксперт.
-p attrs: []
-«Это, конечно, дикость, потому что даже если кандидат ошибся и указал «среднее специальное», а не «среднее профессиональное» образование, это никак ни на что не влияет, это не предоставление неверных сведений и не обман избирателя. Это абсолютно формальная причина. К женщинам-кандидатам тоже придираются из-за смены фамилии регулярно: то же самое случилось, к примеру, с яблочницей Марией Яблонской в Хакасии. Цель власти проста: максимально ослабить те элиты, которые были связаны с экс-губернатором Николаем Виноградовым, а и у КПРФ, и у «Яблока» с ними были хорошие отношения. Самыми проигравшими выглядят справедливороссы: их представитель Антон Беляков не участвует в выборах губернатора (о
-зачистке
-на этих выборах
-Газета.Ru
-
-a attrs: [('href', 'http://www.gazeta.ru/politics/2013/08/02_a_5538741.shtml')]
-b attrs: []
-писала ранее
-) и идет в Совет Федерации при представительнице ЕР
-a attrs: [('class', 'tag'), ('href', '/tags/orlova_svetlana_yurevna.shtml')]
-Светлане Орловой
-, но административный ресурс на выборах в заксобрание к ним все равно применяют»,
-отмечает Кынев.
-p attrs: []
-Собеседник издания в администрации президента успокаивает обиженные партии и советует немедленно обжаловать решение комиссии.
-p attrs: []
-«Наш курс
-это демократия, и все, кто может быть зарегистрирован по закону, регистрацию получат, придирки с мест исправят высшие инстанции»,
-успокаивает всех фигурантов истории источник «Газеты.Ru» в АП.
-
-
-
-
-div attrs: [('class', 'tags')]
-
-a attrs: [('href', '/tags/yabloko.shtml'), ('rel', 'tag')]
-Россиийская объединенная демократическая партия
-Яблоко
-
+a attrs: [('href', 'http://habrahabr.ru/hub/Dura_Lex/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Dura Lex
 ,
-a attrs: [('href', '/tags/orlova_svetlana_yurevna.shtml'), ('rel', 'tag')]
-Светлана Орлова
+a attrs: [('href', 'http://habrahabr.ru/hub/copyright/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РљРѕРїРёСЂР°Р№С‚
 
+
+div attrs: [('class', 'content html_format')]
+Р’С‡РµСЂР° (7В Р°РІРіСѓСЃС‚Р°) РЅР°В СЃР°Р№С‚Рµ РґРµР»РѕРІРѕР№ РіР°Р·РµС‚С‹ В«Р’Р·РіР»СЏРґВ» РљРёСЂРёР»Р»В РњР°СЂС‚С‹РЅРѕРІ РѕРїСѓР±Р»РёРєРѕРІР°Р» СЃС‚Р°С‚СЊСЋ В«
+a attrs: [('href', 'http://vz.ru/columns/2013/8/7/644610.html')]
+Р СѓСЃСЃРєР°СЏВ SOPA
+В», РІВ РєРѕС‚РѕСЂРѕР№ РЅР°РїРѕРјРЅРёР»: РєРѕРіРґР° В«StopВ Online PiracyВ ActВ» (SOPA) Р±С‹Р»В РІРЅРµСЃС‘РЅ РЅР°В СЂР°СЃСЃРјРѕС‚СЂРµРЅРёРµ РљРѕРЅРіСЂРµСЃСЃР°В РЎРЁРђ РІВ РѕРєС‚СЏР±СЂРµ 2011В РіРѕРґР°, С‚РѕВ СЃС‚РѕР»РєРЅСѓР»СЃСЏ СЃВ РјР°СЃСЃРѕРІС‹Рј СЃРѕРїСЂРѕС‚РёРІР»РµРЅРёРµРј РЅР°СЂРѕРґР°: РІВ Р°РєС†РёСЏС… РїСЂРѕС‚РµСЃС‚Р° РїСЂРёРЅСЏР»Рё СѓС‡Р°СЃС‚РёРµ
+b attrs: []
+СЃРѕС‚РЅРё С‚С‹СЃСЏС‡
+РіСЂР°Р¶РґР°РЅ. РџРѕСЃР»РµВ С‡РµРіРѕ РёР·В SOPA СЃРїРµСЂРІР° РІС‹РєРёРЅСѓР»Рё СЃР°РјС‹Р№ СЃРїРѕСЂРЅС‹Р№ РїСѓРЅРєС‚, Р°В Р·Р°С‚РµРј РёВ РІРѕРІСЃРµ РѕС‚Р»РѕР¶РёР»Рё Р·Р°РєРѕРЅРѕРїСЂРѕРµРєС‚ (В«РґР»СЏВ РґРѕСЂР°Р±РѕС‚РєРёВ») РЅР°В РЅРµРѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє. Р’В Р РѕСЃСЃРёРёВ Р¶Рµ РЅР°В РїРёРєРµС‚ Р·Р°В СЃРІРѕР±РѕРґСѓ РРЅС‚РµСЂРЅРµС‚Р° РІС‹С€Р»Р° РІВ РњРѕСЃРєРІРµ РµРґРІР° СЃРѕС‚РЅСЏ С‡РµР»РѕРІРµРє (РѕСЃС‚Р°Р»СЊРЅС‹Рµ РѕРіСЂР°РЅРёС‡РёР»РёСЃСЏ РІРЅСѓС‚СЂРёРёРЅС‚РµСЂРЅРµС‚РѕРІСЃРєРёРјРё В«Р·Р°Р±Р°СЃС‚РѕРІРєР°РјРёВ» РґР°В РїРѕРґРїРёСЃР°РЅРёРµРј РїРµС‚РёС†РёРё РЅР°В РїСЂР°РІРёС‚РµР»СЊСЃС‚РІРµРЅРЅРѕРј СЃР°Р№С‚Рµ), С‚Р°РєВ С‡С‚Рѕ РІР»Р°СЃС‚СЏРј СѓР¶РµСЃС‚РѕС‡РµРЅРёРµ Р·Р°РєРѕРЅРѕРІ, РѕРіСЂР°РЅРёС‡РёРІР°СЋС‰РёС… СЃРІРѕР±РѕРґСѓ РРЅС‚РµСЂРЅРµС‚Р°, РѕРєР°Р·Р°Р»РѕСЃСЊ РІРїРѕР»РЅРµ РїРѕРІР°РґРЅРѕ.
+br attrs: []
+
+br attrs: []
+
+Р’РѕС‚ Рё РЅРµ РґСѓРјР°Р№С‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°, С‡С‚РѕВ РїСЂРёРЅСЏС‚С‹Рј РЅРµРґРµР»СЋВ РЅР°Р·Р°Рґ Р·Р°РєРѕРЅРѕРј СЌС‚РѕВ СѓР¶РµСЃС‚РѕС‡РµРЅРёРµ РѕРєРѕРЅС‡РёС‚СЃСЏ. Р’В С‚РѕС‚В Р¶Рµ РІС‡РµСЂР°С€РЅРёР№В РґРµРЅСЊ РЅР°В СЃР°Р№С‚Рµ В«РР·РІРµСЃС‚РёР№В» РјРЅРµВ РґРѕРІРµР»РѕСЃСЊ РїСЂРѕС‡РµСЃС‚СЊ СЃС‚Р°С‚СЊСЋ Р’Р»Р°РґРёРјРёСЂР° Р—С‹РєРѕРІР° В«
+a attrs: [('href', 'http://izvestia.ru/news/555031')]
+РњРёРЅРєСѓР»СЊС‚СѓСЂС‹ РІРЅРµСЃС‘С‚ РІВ Р°РЅС‚РёРїРёСЂР°С‚СЃРєРёР№ Р·Р°РєРѕРЅ РјСѓР·С‹РєСѓ, РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РёВ РєРЅРёРіРё
+В», РєРѕС‚РѕСЂСѓСЋ РґР°Р¶РµВ СЃРµРіРѕРґРЅСЏ СЃВ СѓС‚СЂР° РЅР°В СЃРІРµР¶СѓСЋВ РіРѕР»РѕРІСѓ РјРѕРіСѓ РЅР°Р·РІР°С‚СЊ РЅРµРїСЂРёСЏС‚РЅРѕСЋ, Р°В РІС‡РµСЂР° РІРѕВ РІРµСЃСЊВ РґРµРЅСЊ С‡СѓРІСЃС‚РІРѕРІР°Р»В СЃРµР±СЏ С…СѓР¶Рµ С„РёР·РёС‡РµСЃРєРё. Р’РѕС‚В С‡С‚Рѕ РјРѕР¶РЅРѕ РїСЂРѕС‡РµСЃС‚СЊ РІВ СЌС‚РѕР№В СЃС‚Р°С‚СЊРµ РѕВ РЅРѕРІРµР№С€РёС… РёРЅРёС†РёР°С‚РёРІР°С… РњРёРЅРёСЃС‚РµСЂСЃС‚РІР° РєСѓР»СЊС‚СѓСЂС‹:
+br attrs: []
+
+br attrs: []
+
+ul attrs: []
+
+Р›СЋР±РёС‚РµР»РµР№ РЅРµР»РёС†РµРЅР·РёРѕРЅРєРё РІВ РѕС‡РµСЂРµРґРЅРѕР№В СЂР°Р· РЅР°Р·С‹РІР°СЋС‚
+b attrs: []
+РїРёСЂР°С‚Р°РјРё.
+(РљВ СЌС‚РѕР№ РјРµР»РѕС‡Рё, РїРѕР¶Р°Р»СѓР№, СЃРєРѕСЂРѕ РїСЂРёРІС‹РєРЅРµРј РёВ РґР°Р¶Рµ СЃС‚Р°РЅРµРј СЂР°РґРѕРІР°С‚СЊСЃСЏ, С‡С‚РѕВ РЅРµ РѕР±РґРѕР»Р±Р°РЅРЅС‹РјРё СЃСѓРёС†РёРґРЅС‹РјРё РїРµРґРѕС„РёР»Р°РјРё, РєР°РєВ СЌС‚РѕВ РґРµР»Р°РµС‚СЃСЏ РІВ РґСЂСѓРіРѕРј РёР·РІРµСЃС‚РЅРѕРј Р·Р°РєРѕРЅРµ РѕР±В РѕРіСЂР°РЅРёС‡РµРЅРёРё РРЅС‚РµСЂРЅРµС‚Р°.)
+br attrs: []
+
+
+a attrs: [('href', 'http://iwdrm.tumblr.com/post/31055266364')]
+РўРµРј, РєС‚Рѕ РЅР°РґРµСЏР»СЃСЏ, С‡С‚Рѕ Р±РѕСЂСЊР±Р° Р·Р°В РєРѕРїРёСЂР°Р№С‚ РѕРіСЂР°РЅРёС‡РёС‚СЃСЏ С„РёР»СЊРјР°РјРё (РІВ РєСЂР°Р№РЅРµРј СЃР»СѓС‡Р°РµВ вЂ” РµС‰С‘ РёВ С‚РµР»РµСЃРµСЂРёР°Р»Р°РјРё), РїРѕСЂР° РѕСЃС‚Р°РІРёС‚СЊ СЌС‚СѓВ РЅР°РґРµР¶РґСѓ. РќРѕРІС‹Р№ Р·Р°РєРѕРЅ РєРѕСЃРЅС‘С‚СЃСЏ РёВ Р·РІСѓРєРѕР·Р°РїРёСЃРµР№, РёВ СЂРёСЃСѓРЅРєРѕРІ, РёВ С„РѕС‚РѕРіСЂР°С„РёР№, РёВ С‚РµРєСЃС‚РѕРІ вЂ”
+b attrs: []
+РІСЃРµС… РєР°С‚РµРіРѕСЂРёР№
+Р°РІС‚РѕСЂСЃРєРёС… РёВ СЃРјРµР¶РЅС‹С…В РїСЂР°РІ РєРѕСЃРЅС‘С‚СЃСЏ.
+br attrs: []
+
+
+Р’СЃРµРј РІР»Р°РґРµР»СЊС†Р°Рј СЃР°Р№С‚РѕРІ Р±СѓРґРµС‚ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊРЅРѕ РїСЂРµРґРїРёСЃР°РЅРѕ Р»РёР±Рѕ
+b attrs: []
+РґРµР°РЅРѕРЅРёРјРёР·РёСЂРѕРІР°С‚СЊСЃСЏ
+(РѕС‚РєСЂС‹С‚Рѕ СѓРєР°Р·Р°С‚СЊ РЅР°В СЃР°Р№С‚Рµ СЃРІРѕР№ РїРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РІВ СЂРµР°Р»СЊРЅРѕРјВ РјРёСЂРµ), Р»РёР±Рѕ
+b attrs: []
+РѕС‚РєСЂС‹С‚СЊСЃСЏ СЃРїР°РјСѓ
+(РѕС‚РєСЂС‹С‚Рѕ СѓРєР°Р·Р°С‚СЊ РЅР°В СЃР°Р№С‚Рµ СЃРІРѕР№
+e-mail
+РёВ С‡РёС‚Р°С‚СЊ РІСЃСЋ, РІСЃСЋ РїСЂРёС…РѕРґСЏС‰СѓСЋ РЅР°В РЅРµРіРѕ РїРѕС‡С‚Сѓ), С‡С‚РѕР±С‹ РїСЂРёРЅРёРјР°С‚СЊ Р¶Р°Р»РѕР±С‹ РїСЂР°РІРѕС‚РѕСЂРіРѕРІС†РµРІ. Р‘РѕР»РµРµВ С‚РѕРіРѕ: РЅР°В РєР°Р¶РґРѕРј СЃР°Р№С‚Рµ Р±СѓРґРµС‚ (РїРѕВ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊРЅРѕРјСѓ РїСЂРёРЅСѓР¶РґРµРЅРёСЋ) СЂР°Р·РјРµС‰РµРЅР° СЃРїРµС†РёР°Р»СЊРЅР°СЏ
+b attrs: []
+С„РѕСЂРјР°
+РґР»СЏВ РїСЂРёС‘РјР° Р¶Р°Р»РѕР± РѕС‚В РїСЂР°РІРѕС‚РѕСЂРіРѕРІС†РµРІ.
+br attrs: []
+
+
+Р РµР°РєС†РёСЏ РЅР° РїРѕСЃС‚СѓРїРёРІС€РёРµ Р¶Р°Р»РѕР±С‹ РґРѕР»Р¶РЅР° СЃС‚Р°С‚СЊ РЅРµВ РјРµРЅРµРµ РјРѕР»РЅРёРµРЅРѕСЃРЅРѕСЋ, С‡РµРј СѓВ Р”Р¶РµРєР° Р‘Р°СѓСЌСЂР°: РІВ С‚РµС‡РµРЅРёРµ
+b attrs: []
+24В С‡Р°СЃРѕРІ
+РІР»Р°РґРµР»РµС† СЃР°Р№С‚Р° РґРѕР»Р¶РµРЅ Р»РёР±Рѕ Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ РґРѕСЃС‚СѓРї РєВ С‚РѕРјСѓ РјР°С‚РµСЂРёР°Р»Сѓ, РЅР°В РєРѕС‚РѕСЂС‹Р№ РїРѕСЃС‚СѓРїРёР»Р° Р¶Р°Р»РѕР±Р°, Р»РёР±Рѕ СЃРјРёСЂРёС‚СЊСЃСЏ СЃВ Р·Р°РєСЂС‹С‚РёРµРј РІСЃРµРіРѕВ СЃР°Р№С‚Р° Р РѕСЃРєРѕРјРЅР°РґР·РѕСЂРѕРј.
+br attrs: []
+
+
+РџСѓР±Р»РёРєР°С‚РѕСЂ РјР°С‚РµСЂРёР°Р»Р° РјРѕР¶РµС‚ РЅР°РїСЂР°РІРёС‚СЊ Р°РІС‚РѕСЂСѓ Р¶Р°Р»РѕР±С‹ СЃРІРѕРё РІРѕР·СЂР°Р¶РµРЅРёСЏ, РЅРѕВ РјР°С‚РµСЂРёР°Р» РІСЃС‘В СЂР°РІРЅРѕ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓР±СЂР°РЅ РїРѕВ Р·Р°РєРѕРЅСѓ РёР·В РЎРµС‚Рё
+b attrs: []
+РЅР°В 14В РґРЅРµР№
+РґР°Р¶Рµ РІВ С‚РѕРј СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р°РІС‚РѕСЂ Р¶Р°Р»РѕР±С‹ РЅРµВ СЃС‚Р°РЅРµС‚ РѕСЃРїР°СЂРёРІР°С‚СЊ СЌС‚РёВ РІРѕР·СЂР°Р¶РµРЅРёСЏ РІВ СЃСѓРґРµР±РЅРѕРј РїРѕСЂСЏРґРєРµ. Р’В СЃР»СѓС‡Р°РµВ Р¶Рµ СЃСѓРґРµР±РЅРѕРіРѕ РїСЂРѕС†РµСЃСЃР° РјР°С‚РµСЂРёР°Р» Р±Р»РѕРєРёСЂСѓРµС‚СЃСЏ РґРѕВ РІСЃС‚СѓРїР»РµРЅРёСЏ РІВ СЃРёР»Сѓ СЂРµС€РµРЅРёСЏВ СЃСѓРґР°.
+br attrs: []
+
+
+РўРµ Р¶Рµ РїСЂР°РІРёР»Р° РєРѕСЃРЅСѓС‚СЃСЏ
+Рё
+b attrs: []
+РіРёРїРµСЂСЃСЃС‹Р»РѕРє
 ,
-a attrs: [('href', '/tags/administratsiya_prezidenta_rossii.shtml'), ('rel', 'tag')]
-Администрация президента России
+РЅР°В РєРѕС‚РѕСЂС‹Рµ РїРѕСЃС‚СѓРїРёС‚ Р¶Р°Р»РѕР±Р° РѕВ С‚РѕРј, С‡С‚РѕВ РІРµРґСѓС‚В РѕРЅРё РєВ РЅРµР»РёС†РµРЅР·РёРѕРЅРЅРѕРјСѓ РєРѕРЅС‚РµРЅС‚Сѓ, РѕРїСѓР±Р»РёРєРѕРІР°РЅРЅРѕРјСѓ С‚СЂРµС‚СЊРёРјРёВ Р»РёС†Р°РјРё.
+br attrs: []
 
 
+Р—Р° РЅР°СЂСѓС€РµРЅРёРµ РїРѕСЂСЏРґРєР° РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РґРѕСЃС‚СѓРїР° РєВ РёРЅС„РѕСЂРјР°С†РёРё РїСЂРµРґСѓСЃРјР°С‚СЂРёРІР°СЋС‚СЃСЏ С€С‚СЂР°С„С‹, РєРѕС‚РѕСЂС‹Рµ СЃРјРѕРіСѓС‚ РґРѕСЃС‚РёРіР°С‚СЊ
+b attrs: []
+РјРёР»Р»РёРѕРЅР° СЂСѓР±Р»РµР№.
+(РљР°РєВ РІРёРґРЅРѕ, РјРёРЅРёСЃС‚РµСЂСЃС‚РІРѕ РњРµРґРёРЅСЃРєРѕРіРѕ СЃС‚СЂРµРјРёС‚СЃСЏ РёСЃРїРѕР»РЅРёС‚СЊ СЃР°РјСѓСЋ СЃС‚СЂР°С€РЅСѓСЋ
+a attrs: [('href', 'http://habrahabr.ru/post/103397/')]
+РјРµС‡С‚Сѓ РњРёР»СЏРІСЃРєРѕРіРѕ
+, РїРѕВ РєСЂР°Р№РЅРµР№В РјРµСЂРµ, РЅР°РїРѕР»РѕРІРёРЅСѓ; СЂР°Р·РІРµВ С‡С‚Рѕ РґРІР°РґС†Р°С‚СЊ Р»РµС‚ С‚СЋСЂСЊРјС‹ РµС‰С‘ РЅРµВ РїСЂРµРґР»Р°РіР°СЋС‚ РґР°РІР°С‚СЊ.)
 
-.b-social_like_buttons li {position:relative;}
-ul attrs: [('class', 'b-social_like_buttons cf b-social_like_buttons_article_bottom')]
-div attrs: [('class', 'fb-like'), ('data-send', 'false'), ('data-layout', 'button_count'), ('data-width', '140'), ('data-show-faces', 'false'), ('data-action', 'recommend')]
-div attrs: [('class', 'g-plusone'), ('data-size', 'medium')]
-div attrs: [('id', 'vk_like2')]
-$LAB .script("http://vkontakte.ru/js/api/openapi.js").wait(function(){ VK.init({apiId: 1992442, onlyWidgets: true}); if (document.getElementById('vk_like')) VK.Widgets.Like("vk_like", {type: "mini"}); if (document.getElementById('vk_like2')) VK.Widgets.Like("vk_like2", {type: "mini"}); });
-a attrs: [('href', 'http://twitter.com/share'), ('class', 'twitter-share-button'), ('data-count', 'horizontal'), ('data-counturl', 'http://www.gazeta.ru/politics/2013/08/07_a_5545693.shtml'), ('data-via', 'gazetaru'), ('data-related', '')]
-Tweet
-a attrs: [('class', 'lj_new lj_new_send'), ('id', 'lj_new'), ('href', '#'), ('title', 'Отправить в Livejournal')]
+br attrs: []
 
-a attrs: [('href', '#comments'), ('class', 'button_give_comments')]
-Написать комментарий
-a attrs: [('href', '#comments'), ('title', '2\xa0комментария')]
-span attrs: [('class', 'comments_info_arrowed')]
-2
+div attrs: [('class', 'buttons')]
 
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189402/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
 
 
+div attrs: [('class', 'clear')]
 
 
+div attrs: [('class', 'infopanel_wrapper')]
 
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189402')]
 
+div attrs: [('class', 'voting   ')]
 
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
+div attrs: [('class', 'mark')]
 
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
 
 
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
 
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+22973
 
+div attrs: [('class', 'favorite')]
 
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
 
 
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+47
 
+div attrs: [('class', 'author')]
 
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/Mithgol/')]
+Mithgol
 
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+303,2
 
 
+div attrs: [('class', 'comments')]
 
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189402/#comments')]
+span attrs: [('class', 'all')]
+117
 
 
 
 
+div attrs: [('class', 'clear')]
 
 
 
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189388')]
 
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 08:26
 
+h1 attrs: [('class', 'title')]
 
+a attrs: [('href', 'http://habrahabr.ru/post/189388/'), ('class', 'post_title')]
+РџРѕСЌР»РµРјРµРЅС‚РЅС‹Р№ СЂР°Р·Р±РѕСЂ РІРЅСѓС‚СЂРµРЅРЅРѕСЃС‚РµР№ РїСЂРѕСЃС‚РµР№С€РµР№ РјРёРєСЂРѕСЃС…РµРјС‹ вЂ” ULN2003
 
 
+div attrs: [('class', 'hubs')]
 
+a attrs: [('href', 'http://habrahabr.ru/hub/antikvariat/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РЎС‚Р°СЂРѕРµ Р¶РµР»РµР·Рѕ
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/easyelectronics/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р­Р»РµРєС‚СЂРѕРЅРёРєР° РґР»СЏ РЅР°С‡РёРЅР°СЋС‰РёС…
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/DIY/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+DIY РёР»Рё РЎРґРµР»Р°Р№ РЎР°Рј
 
 
+div attrs: [('class', 'content html_format')]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section attrs: [('class', 'b-article_read_also')]
-
-h5 attrs: [('class', 'stripe')]
-Читайте также:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'article')]
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/04_a_5540129.shtml')]
-span attrs: []
-Администрация президента считает, что оппозиция намеренно подает документы так, чтобы получить отказ в регистрации на выборах. Партии это отрицают
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'article')]
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/03_a_5539521.shtml')]
-span attrs: []
-Навальный поблагодарил единороссов за рекламу яндекс-кошелька, в который он собирает деньги на избирательную кампанию
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'article')]
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/02_a_5538741.shtml')]
-span attrs: []
-Врио губернатора Владимирской области Светлана Орлова осталась без конкурентов на выборах
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'article')]
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/02_a_5538813.shtml')]
-span attrs: []
-Сергей Собянин стал единственным самовыдвиженцем на осенних губернаторских выборах
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'article')]
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/07/31_a_5533625.shtml')]
-span attrs: []
-В выборах в парламент Чечни участвует рекордное количество партий, большинство из которых не имеют отделений в республике
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-div attrs: [('class', 'mt10')]
-
-
-
-div attrs: [('class', 'adv_adsmart')]
-
-div attrs: [('align', 'center')]
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-a attrs: [('name', 'comments')]
-
-
-div attrs: [('class', 'center')]
-a attrs: [('class', 'grey_text fs13'), ('href', '/livejournal_manual.shtml')]
-Правила комментирования
-
-div attrs: [('id', 'lj-comments')]
-
-jQuery('#lj-comments').ljcomments({
-rsk: 'sI9zAC167tWHOlgQuXXk30pZIFyWaB2IUqDcEdKr', // ключ (уникальный для каждого партнёра) docid: '5545693', // id статьи hostname:'livejournal.com',
-encoding: 'Windows-1251',
-templates: {
-dates: '<b>{hours}:{minutes}</b>, {day}, {date}.{month}.{year}',
-days: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
-css: {
-// common: '<link media="all" rel="stylesheet" href="/nm2012/ssi/lj_css.css?1" type="text/css" />',
-// ie: '<link media="all" rel="stylesheet" href="http://static.gazeta.ru/nm2012/ssi/lj_css.css" type="text/css" />',
-// ie6: '<link media="all" rel="stylesheet" href="http://static.gazeta.ru/nm2012/ssi/lj_css.css" type="text/css" />'
-common: '<link media="all" rel="stylesheet" href="http://static.gazeta.ru/nm2012/css/lj_form.css" type="text/css" />',
-ie: '<link />',
-ie6: '<link />'
-},
-selectors: {
-commentContainer: '.comment-container',
-deletedCommentContainer: '.deleted-comment-container',
-expandThreadControl: '.expand-thread-control',
-collapseThreadControl: '.collapse-thread-control',
-threadLink: '.thread-link',
-nonThreadControl: '.non-thread-control',
-addCommentControl: '.add-comment-control',
-replyControl: '.reply-control',
-deleteControl: '.delete-control',
-viewAllControl: '.view-all-control',
-LJIframe: '.lj-iframe',
-pagerLink: '.lj3-pagination a'
-},
-pager: {
-top: '<div class="lj3-pagination"><ul>{pages}</ul></div>',
-firstPage: '<li><a href="{link}">{number}</a></li>',
-lastPage: '<li><a href="{link}">{number}</a></li>',
-prevPage: '<li class="lj3-to-home"><a href="{link}">&laquo;</a></li>',
-nextPage: '<li class="lj3-to-end"><a href="{link}">&raquo;</a></li>',
-currentPage: '<li class="lj3-active"><a>{number}</a></li>',
-lacuna: '<li class="lj3-lacuna"><a>&hellip;</a></li>',
-commonPage: '<li><a href="{link}">{number}</a></li>',
-message: '<p>{number}-я страница из {total}</p>',
-bottom: '<div class="lj3-pagination">{message}<ul>{pages}</ul></div>'
-},
-comments: {
-open: '<dl class="lj3-comment comment-container lj3-indent{level} ind" id="t{comment_id}" level="{level}"><dt class="lj3-comment-header"><span class="lj3-comment-header-inner"><span class="lj3-comment-meta collapse-thread-control"><span class="lj3-user lj3-{journal_type_classname} vcard"><a title="Profile" class="non-thread-control" target="_blank" href="{profile_url}"><img class="non-thread-control non-thread-control-pic" alt="" src="http://l-stat.livejournal.com/gadgets/i/0.gif"></a>&nbsp;<a title="Journal" target="_blank" href="{journal_url}" class="fn nickname url non-thread-control">{display_name}</a><span class="lgtime">&nbsp;|&nbsp;&nbsp;{time_and_date}&nbsp;&nbsp;|&nbsp;</span></span><a href="#t{comment_id}" class="lj3-permalink">Ссылка на комментарий</a></span></span></dt><dd class="lj3-dd-img"><img border="0" style="padding:0px;" class="ljcom_arrow" src="http://static.gazeta.ru/nm2012/i/ljcom_arrow2.png" width="10" height="11"></dd><dd class="lj3-comment-content"><p class="lj3-comment-title {empty_subject}">{subject}</p><p>{text}</p></dd><dd class="lj3-comment-footer"><span class="lglinks">{thread_link}{delete_comment_link}</span><p><a href="?replyto={comment_id}" class="lj3-button-link-b lj3-reply-link reply-control">&nbsp;</a></p></dd></dl>',
-collapsed: '<dl class="lj3-comment comment-container lj3-comment-collapsed lj3-indent{level}" id="t{comment_id}" collapsed="collapsed" level="{level}"> <dt class="lj3-comment-header"> <span class="lj3-comment-header-inner"><span class="lj3-comment-meta expand-thread-control"><a class="lj3-comment-title">{subject}</a><span class="lj3-user lj3-{journal_type_classname} vcard non-thread-control"><a title="Profile" target="_blank" href="{profile_url}" class="non-thread-control"><img alt="" src="http://l-stat.livejournal.com/gadgets/i/0.gif" class="non-thread-control"></a>&nbsp;<a title="Journal" target="_blank" href="{journal_url}" class="fn nickname url non-thread-control">{display_name}</a></span><span class="lj3-comment-date">{time_and_date}</span></span></span></dt></dl>',
-deleted: '<dl class="lj3-comment lj3-comment-collapsed lj3-indent{level} deleted-comment-container" level="{level}"><dt class="lj3-comment-header"><span class="lj3-comment-header-inner"><span class="lj3-comment-meta"><a class="lj3-comment-title">(Комментарий был скрыт или удален)</a></span></span></dt></dl>',
-addButton: '<p class="komm lj3-reply-link add-comment-control"><a class="lj3-button-link reply-control" href="javascript:void(0);"><img src="/nm2012/i/add_comment_oid.png" alt="Добавить комментарий" /></a></p>',
-LJIframeContainer: '<div class="lj3-iframe lj-iframe"><iframe src="{iframe_src}" border="0" frameborder="0" /></div>',
-authBlockContainer: '<div class="auth-block"></div>',
-viewAllLink: '<p class="lj3-reply-link"><a class="lj3-button-link view-all-control" href="{url}">Все комментарии</a></p>',
-expandThreadLink: '<a href="#" class="lj3-thread-link thread-link expand-thread-control">Развернуть</a>',
-collapseThreadLink: '<a href="#" class="lj3-thread-link thread-link collapse-thread-control">Свернуть</a>',
-deleteCommentLink: '<a href="#" class="lj3-delete-comment delete-control">Удалить</a>',
-preloaderClassname: 'idle',
-emptySubject: {
-classname: 'empty',
-message: 'Без темы'
-}
-}
-},
-messages: {
-'delete comment confirm': 'Вы действительно хотите удалить комментарий?'
-}
-});
-
-div attrs: [('style', 'clear:all')]
-
-
-div attrs: [('class', 'c710 ml0 cf')]
-
-div attrs: [('class', 'adv adv_exchanger3')]
-
-
-
-
-
-
-
- 
-
-
-
-
-
-div attrs: [('class', 'c350 ml0 cf')]
-
-
-div attrs: [('class', 'adv adv_exchanger4')]
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-div attrs: [('class', 'c350 cf')]
-
-
-
-
-
-
-
- 
-
-
-
-
-div attrs: [('class', 'c710 ml0 cf')]
-
-div attrs: [('class', 'adv adv_exchanger6')]
-
-
-
-
-
-
- 
-
-
-
-
-
-div attrs: [('class', 'cf')]
-
-
-
-div attrs: [('class', 'c240')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'adv_240x400')]
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'b-letters_from_readers_dig')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-section attrs: [('class', 'db p10')]
-
-h4 attrs: [('class', 'dh')]
-Новости по теме
-
-div attrs: [('class', 'scroll_wrap'), ('style', 'max-height:600px')]
-
-div attrs: [('class', 'scroll_slider'), ('data-init', 'init_scroll')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-19:28
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/07/n_3096369.shtml')]
-
-Заммэра Ярославля могут привлечь к ответственности за агитацию
-Гражданской платформы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-13:50
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/07/n_3095661.shtml')]
-
-Определены пары участников радиодебатов среди кандидатов в губернаторы Подмосковья
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-03:41
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/05/n_3089321.shtml')]
-
-
-Известия
-: ЕР выдвинула наименьшее число кандидатов на региональные выборы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-14:45
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/03/n_3086941.shtml')]
-
-Более половины россиян считают, что выборы в регионах будут
-грязными
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-14:05
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/03/n_3086917.shtml')]
-
-Полиция опровергла принадлежность Ройзману мастерской, откуда изъяты иконы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-22:01
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/02/n_3085973.shtml')]
-
-Против фонда Евгения Ройзмана завели новое уголовное дело
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-16:18
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/02/n_3085089.shtml')]
-
-
-Голос
-открыл сайт для учета нарушений на сентябрьских выборах в регионах
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-14:24
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/02/n_3084741.shtml')]
-
-Предвыборный штаб Евгения Ройзмана возглавила Аксана Панова
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-13:48
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/02/n_3084637.shtml')]
-
-Ярославский избирком отказал в регистрации кандидатам от партии Прохорова
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-13:30
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/02/n_3084585.shtml')]
-
-Владимирский избирком отказался зарегистрировать кандидата от партии Прохорова
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-17:08
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/01/n_3082385.shtml')]
-
-
-Гражданской платформе
-отказали в регистрации на выборы в думу Ярославля
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-17:02
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/01/n_3082377.shtml')]
-
-Мурат Зязиков будет баллотироваться на пост президента Ингушетии
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-12:53
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/01/n_3081725.shtml')]
-
-В Забайкалье закончилась регистрация кандидатов в губернаторы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-07:41
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/08/01/n_3080981.shtml')]
-
-Воробьев уже потратил на предвыборную кампанию в Подмосковье 70 млн руб.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-21:04
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/29/n_3074757.shtml')]
-
-Кандидату в главы Владимирской области от партии Прохорова откажут в регистрации
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-10:54
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/28/n_3071649.shtml')]
-
-Ройзман зарегистрирован кандидатом в мэры Екатеринбурга
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-12:35
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/27/n_3070357.shtml')]
-
-В Екатеринбурге задержали трех агитаторов Ройзмана
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-01:58
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/26/n_3067093.shtml')]
-
-
-Ъ
-: на выборах губернатора Подмосковья будет рекордное количество открепительных
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-01:41
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/24/n_3061973.shtml')]
-
-Ярославский избирком зарегистрировал список
-Гражданской платформы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-20:28
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/23/n_3061593.shtml')]
-
-Зампред
-Патриотов России
-сдала в Мособлизбирком подписи муниципальных депутатов
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-20:28
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/23/n_3061593.shtml')]
-
-Зампред
-Патриотов России
-сдала в Мособлизбирком подписи муниципальных депутатов
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-15:39
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/23/n_3061049.shtml')]
-
-Кандидат в губернаторы Подмосковья Фетисов не успел собрать подписи
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-10:46
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/23/n_3060329.shtml')]
-
-ЕР выдвинула свердловского вице-губернатора кандидатом в мэры Екатеринбурга
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-22:32
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3059413.shtml')]
-
-Глава
-Гражданской платформы
-в Ярославле доставлен в полицию
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-20:50
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3059289.shtml')]
-
-Ярославский избирком не принял документы
-Гражданской платформы
-из-за нехватки времени
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-17:56
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3058945.shtml')]
-
-Ярославский избирком затягивает прием документов партии
-Гражданская платформа
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-11:24
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3058041.shtml')]
-
-Врио мэра Томска ни при каких обстоятельствах не будет выдвигаться на пост главы города
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-09:10
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3057713.shtml')]
-
-Губернатор Жвачкин назвал отставку мэра Томска мужским поступком
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-07:59
-
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/22/n_3057629.shtml')]
-
-Досрочные выборы мэра Томска пройдут 13 октября
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-
-article attrs: [('class', 'common')]
-
-h3 attrs: [('class', 'dh')]
-14:18
-
-h5 attrs: [('class', 'dh2')]
-a attrs: [('href', '/news/lastnews/')]
-Новость часа
-
-div attrs: [('class', 'cf')]
-
-h2 attrs: [('class', 'h5 mb10')]
-
-
-a attrs: [('href', '/politics/news/2013/07/21/n_3056457.shtml')]
-
-По факту прослушки телефона Ройзмана возбуждено уголовное дело
-
-
-
-
-
-
-
-
-
-hr attrs: [('class', 'separator')]
-
-h6 attrs: [('class', 'dh2')]
-
-
-a attrs: [('href', '/news/seealso/1281773.shtml')]
-
-
-Все новости по теме
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-div attrs: [('class', 'db p_cmn')]
-
-
-h3 attrs: [('class', 'dh')]
-
-
-Мультимедиа
-
-
-hr attrs: [('class', 'separator')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'wb p10')]
-
-a attrs: [('href', '/politics/infographics/vybory_gubernatorov.shtml'), ('class', 'pic_href infographic')]
-
-
-
-
-h2 attrs: [('class', 'h4 mb10')]
-
-
-a attrs: [('href', '/politics/infographics/vybory_gubernatorov.shtml')]
-
-Выборы губернаторов
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-
-section attrs: [('class', 'b-subject_digest2')]
-
-
-h4 attrs: [('class', 'digest_header')]
-a attrs: [('href', '/subjects/regiony_2013.shtml')]
-Содержание сюжета
-
-
-div attrs: [('class', 'scroll_wrap')]
-
-div attrs: [('class', 'scroll_slider'), ('data-init', 'init_scroll')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'current')]
-
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-Обрезание по-владимирски
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-Избирком Владимирской области массово снимает с выборов кандидатов от партий, чьи списки уже зарегистрированы
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-07.08.2013, 23:44
-
-
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml#comments')]
-
-span attrs: [('class', 'number')]
-2
-комментария
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/06_a_5544049.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/06_a_5544049.shtml')]
-На заседаниях происходит просто Кафка
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/06_a_5544049.shtml')]
-Кандидаты жалуются на массовое применение админресурса на выборах в
-новой Москве
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-06.08.2013, 21:29
-
-
-
-a attrs: [('href', '/politics/2013/08/06_a_5544049.shtml#comments')]
-
-span attrs: [('class', 'number')]
-3
-комментария
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/06_a_5543297.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/06_a_5543297.shtml')]
-«Число сторонников только растет»
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/06_a_5543297.shtml')]
-Работа сайта в поддержку кандидата в губернаторы Подмосковья Воробьева, на котором зарегистрировались тысячи бюджетников, может противоречить закону
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-06.08.2013, 17:11
-
-
-
-a attrs: [('href', '/politics/2013/08/06_a_5543297.shtml#comments')]
-
-span attrs: [('class', 'number')]
-2
-комментария
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/04_a_5540129.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/04_a_5540129.shtml')]
-Кремль обвиняет оппозицию
-в самостреле
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/04_a_5540129.shtml')]
-Администрация президента считает, что оппозиция намеренно подает документы так, чтобы получить отказ в регистрации на выборах. Партии это отрицают
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-05.08.2013, 00:45
-
-
-
-a attrs: [('href', '/politics/2013/08/04_a_5540129.shtml#comments')]
-
-span attrs: [('class', 'number')]
-6
-комментариев
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/04_a_5540133.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/04_a_5540133.shtml')]
-Московская конкуренция ярославским репрессиям
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/04_a_5540133.shtml')]
-В региональных выборных кампаниях обозначились две модели: конкурентная московская и репрессивная
-ярославская, считают эксперты
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-
-
-
-05.08.2013, 00:00
-
-
-
-a attrs: [('href', '/politics/2013/08/04_a_5540133.shtml#comments')]
-
-span attrs: [('class', 'number')]
-6
-комментариев
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/03_a_5539681.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/03_a_5539681.shtml')]
-Выборы смешали с грязью
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/03_a_5539681.shtml')]
-По данным социологов, большинство российских граждан уверены, что выборы в региональные заксобрания 8 сентября будут нечестными
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-03.08.2013, 17:24
-
-
-
-a attrs: [('href', '/politics/2013/08/03_a_5539681.shtml#comments')]
-
-span attrs: [('class', 'number')]
-44
-комментария
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/02_a_5538741.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/02_a_5538741.shtml')]
-От этого фильтра только давление и вражда
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/02_a_5538741.shtml')]
-Врио губернатора Владимирской области Светлана Орлова осталась без конкурентов на выборах
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-02.08.2013, 21:07
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/08/02_a_5538813.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/08/02_a_5538813.shtml')]
-Собянин как исключение
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/02_a_5538813.shtml')]
-Сергей Собянин стал единственным самовыдвиженцем на осенних губернаторских выборах
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-02.08.2013, 20:53
-
-
-
-a attrs: [('href', '/politics/2013/08/02_a_5538813.shtml#comments')]
-
-span attrs: [('class', 'number')]
-48
-комментариев
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: [('class', 'common')]
-
-
-a attrs: [('href', '/politics/2013/07/31_a_5533625.shtml')]
-
-h2 attrs: []
-a attrs: [('href', '/politics/2013/07/31_a_5533625.shtml')]
-Чечня голосует без отделений
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/07/31_a_5533625.shtml')]
-В выборах в парламент Чечни участвует рекордное количество партий, большинство из которых не имеют отделений в республике
-span attrs: [('class', 'arrow_read_more_shadow')]
-
-
-
-
-ul attrs: [('class', 'info')]
-
-
-31.07.2013, 22:11
-
-
-
-a attrs: [('href', '/politics/2013/07/31_a_5533625.shtml#comments')]
-
-span attrs: [('class', 'number')]
-15
-комментариев
-
-
-
-
-
-br attrs: [('clear', 'all')]
-
-
-
-h5 attrs: [('class', 'read_more')]
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section attrs: [('class', 'b-main_today')]
-
-
-h4 attrs: []
-Главное сегодня
-
-div attrs: [('class', 'scroll_wrap')]
-
-div attrs: [('class', 'scroll_slider'), ('data-init', 'init_scroll')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-Обрезание по-владимирски
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-Избирком Владимирской области массово снимает с выборов кандидатов от партий, чьи списки уже зарегистрированы
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/politics/2013/08/07_a_5545601.shtml')]
-Завершение работы вместо перезагрузки
-
-a attrs: [('href', '/politics/2013/08/07_a_5545601.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545601.shtml')]
-Обама отменил московскую встречу с Путиным, припомнив Москве нерешенные проблемы между странами, в том числе Сноудена, ПРО и права человека
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/business/2013/08/07/5545473.shtml')]
-Флот будут вооружать с помощью УК
-
-a attrs: [('href', '/business/2013/08/07/5545473.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/business/2013/08/07/5545473.shtml')]
-Дмитрий Рогозин признал, что выполнение программы по строительству кораблей и подводных лодок находится под угрозой срыва
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/politics/2013/08/07_a_5545321.shtml')]
-Вокруг Южной Осетии сложился имидж черной дыры
-
-
-a attrs: [('href', '/politics/2013/08/07_a_5545321.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545321.shtml')]
-Корреспондент
-Газеты.Ru
-побывал в столице Южной Осетии накануне пятилетней годовщины августовской войны с Грузией и пообщался с местными чиновниками
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/social/2013/08/07/5545465.shtml')]
-Миграционная политика в провале
-
-
-a attrs: [('href', '/social/2013/08/07/5545465.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545465.shtml')]
-Создание депортационных центров для мигрантов осложняется отсутствием нормативов, описывающих условия их содержания
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/social/2013/08/07/5545397.shtml')]
-У россиян грозятся отнять Турцию
-
-a attrs: [('href', '/social/2013/08/07/5545397.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545397.shtml')]
-После массовых отравлений в турецких отелях Роспотребнадзор пригрозил запретить россиянам выезжать в Турцию
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/business/2013/08/07/5545661.shtml')]
-Олимпийские проценты пошли в дело
-
-a attrs: [('href', '/business/2013/08/07/5545661.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/business/2013/08/07/5545661.shtml')]
-Экс-генеральный директор
-Красной поляны
-Станислав Хацкевич задержан в Москве по делу о злоупотреблении полномочиями
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/social/2013/08/07/5545605.shtml')]
-С цугфюрера сняли медали
-
-a attrs: [('href', '/social/2013/08/07/5545605.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545605.shtml')]
-Суд в Пушкино лишил звания ветерана 90-летнего участника ВОВ Сергея Маслова, воевавшего на стороне нацистов
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-article attrs: []
-
-h3 attrs: []
-a attrs: [('href', '/social/2013/08/07/5545541.shtml')]
-Пожар запер россиян в Африке
-
-a attrs: [('href', '/social/2013/08/07/5545541.shtml')]
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545541.shtml')]
-Россияне не могут вылететь на родину из-за пожара в международном аэропорту Кении
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-br attrs: [('clear', 'all')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section attrs: [('class', 'wb pb10')]
-
-h4 attrs: [('class', 'dh p10 pb0')]
-Читайте также
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/tech/ ')]
-Facebook подтолкнет новости
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/realty/ ')]
-Купил дом своей мечты, хотя на него у меня не было денег
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/travel/ ')]
-У меня вопрос к тем, кто пробовал трюфели
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/travel/ ')]
-Езжайте в Стамбул, там интересно
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/travel/ ')]
-Маленький, но международный
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/tech/ ')]
-Пять интересных и полезных приложений для Android
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/realty/ ')]
-Офисы не идут в
-новую Москву
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/travel/ ')]
-Не следует ждать многого, особенно спокойно надо относиться к грязи
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: []
-
-hr attrs: []
-
-p attrs: [('class', 'h5 mb5 pl10 pr10')]
-a attrs: [('href', '/travel/ ')]
-Пешком в Новый Свет
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', '')]
-
-div attrs: [('class', 'main_block')]
-
-
-h5 attrs: []
-span attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4837601 advright'), ('--', None)]
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4838489 advright'), ('--', None)]
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4838493 advright'), ('--', None)]
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4838589 advright'), ('--', None)]
-var is_gazeta_partners = 0;
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4852897 advright'), ('--', None)]
-div attrs: [('style', 'height:300px;')]
-
-
-
-div attrs: [('id', 'vk_groups')]
-
-VK.Widgets.Group("vk_groups", {mode: 0, width: "240", height: "290"}, 20169232);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4838565 advright'), ('--', None)]
-
-div attrs: [('class', 'mb12'), ('style', 'height:265px;')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4852901 advright'), ('--', None)]
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'mb10')]
-
-div attrs: [('class', 'advright_4838561 advright'), ('--', None)]
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div attrs: [('class', 'calendar-div')]
-
-table attrs: [('class', 'calendar calendar-bord')]
-
-
-td attrs: [('colspan', '7'), ('class', 'cap')]
-div attrs: []
-АРХИВ
-
-
-td attrs: []
-div attrs: [('class', 'slct_m0')]
-
-td attrs: [('colspan', '5')]
-
-div attrs: [('class', 'slct_month')]
-
-div attrs: [('style', 'position: relative; padding: 0px 0px 0px 0px;')]
-
-div attrs: [('class', 'slct_m'), ('id', 'c_month')]
-
-p attrs: [('id', 'm_0'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(0); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.01.2013')]
-Январь
-
-p attrs: [('id', 'm_1'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(1); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.02.2013')]
-Февраль
-
-p attrs: [('id', 'm_2'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(2); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.03.2013')]
-Март
-
-p attrs: [('id', 'm_3'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(3); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.04.2013')]
-Апрель
-
-p attrs: [('id', 'm_4'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(4); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.05.2013')]
-Май
-
-p attrs: [('id', 'm_5'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(5); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.06.2013')]
-Июнь
-
-p attrs: [('id', 'm_6'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(6); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.07.2013')]
-Июль
-
-p attrs: [('id', 'm_7'), ('class', 'slct_mp slct_mt')]
-a attrs: [('onclick', 'slct_m(7); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.08.2013')]
-Август
-
-p attrs: [('id', 'm_8'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(8); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.09.2013')]
-Сентябрь
-
-p attrs: [('id', 'm_9'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(9); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.10.2013')]
-Октябрь
-
-p attrs: [('id', 'm_10'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(10); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.11.2013')]
-Ноябрь
-
-p attrs: [('id', 'm_11'), ('class', 'slct_mp')]
-a attrs: [('onclick', 'slct_m(11); return false'), ('class', 'slct_ma'), ('href', '/archive.shtml?p=archive&start=08.12.2013')]
-Декабрь
-
-
-
-div attrs: [('id', 'start_m')]
-Август
-
-
-div attrs: [('id', 'start_m1'), ('class', 'slct_v')]
-
-div attrs: [('class', 'slct_year')]
-
-div attrs: [('style', 'position: relative; padding: 0px 0px 0px 0px;')]
-
-div attrs: [('class', 'slct_m'), ('id', 'c_year')]
-
-p attrs: [('id', 'y_2002'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2002); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2002')]
-2002
-
-p attrs: [('id', 'y_2003'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2003); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2003')]
-2003
-
-p attrs: [('id', 'y_2004'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2004); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2004')]
-2004
-
-p attrs: [('id', 'y_2005'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2005); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2005')]
-2005
-
-p attrs: [('id', 'y_2006'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2006); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2006')]
-2006
-
-p attrs: [('id', 'y_2007'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2007); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2007')]
-2007
-
-p attrs: [('id', 'y_2008'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2008); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2008')]
-2008
-
-p attrs: [('id', 'y_2009'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2009); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2009')]
-2009
-
-p attrs: [('id', 'y_2010'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2010); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2010')]
-2010
-
-p attrs: [('id', 'y_2011'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2011); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2011')]
-2011
-
-p attrs: [('id', 'y_2012'), ('class', 'slct_yp')]
-a attrs: [('onclick', 'slct_y(2012); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2012')]
-2012
-
-p attrs: [('id', 'y_2013'), ('class', 'slct_yp slct_mt')]
-a attrs: [('onclick', 'slct_y(2013); return false'), ('href', '/archive.shtml?p=archive&start=08.08.2013')]
-2013
-
-
-
-div attrs: [('id', 'start_y')]
-2013
-
-
-div attrs: [('id', 'start_y1'), ('class', 'slct_v')]
-
-
-td attrs: []
-div attrs: [('class', 'slct_m1')]
-
-
-
-td attrs: [('id', 'v1'), ('class', 'calendar-item')]
-
-td attrs: [('id', 'v2'), ('class', 'calendar-item')]
-
-td attrs: [('id', 'v3'), ('class', 'calendar-item')]
-
-td attrs: [('id', 'v4'), ('class', 'calendar-item lg')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=01.08.2013&stripe=politics')]
+Р’ РїСЂРµРґС‹РґСѓС‰РёС… СЃС‚Р°С‚СЊСЏС… СЃ С„РѕС‚РѕРіСЂР°С„РёСЏРјРё РєСЂРёСЃС‚Р°Р»Р»РѕРІ РјРёРєСЂРѕСЃС…РµРј (
+a attrs: [('href', 'http://habrahabr.ru/post/157917/')]
 1
-
-td attrs: [('id', 'v5'), ('class', 'calendar-item lg')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=02.08.2013&stripe=politics')]
+,
+a attrs: [('href', 'http://habrahabr.ru/post/169687/')]
 2
-
-td attrs: [('id', 'v6'), ('class', 'calendar-item red')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=03.08.2013&stripe=politics')]
+,
+a attrs: [('href', 'http://habrahabr.ru/post/178547/')]
 3
+) вЂ” РІ РєРѕРјРјРµРЅС‚Р°СЂРёСЏС… РїРёСЃР°Р»Рё Рѕ С‚РѕРј, С‡С‚Рѕ Р±С‹Р»Рѕ Р±С‹ РЅРµРїР»РѕС…Рѕ СЂР°Р·РѕР±СЂР°С‚СЊ РїСЂРѕСЃС‚СѓСЋ РјРёРєСЂРѕСЃС…РµРјСѓ РїРѕ РґРµС‚Р°Р»СЏРј вЂ” С‡С‚РѕР±С‹ Р±С‹Р»Рѕ РїРѕРЅСЏС‚РЅРѕ В«С‡С‚Рѕ РµСЃС‚СЊ С‡С‚РѕВ» РЅР° СЃР°РјРѕРј РЅРёР·РєРѕРј СѓСЂРѕРІРЅРµ, Рё РіРґРµ С‚Р°Рј В«РјР°РіРёС‡РµСЃРєРёР№ РґС‹РјВ» РїСЂСЏС‡РµС‚СЃСЏ. РЇ РґРѕР»РіРѕ РЅРµ РјРѕРі РІС‹Р±СЂР°С‚СЊ РјРёРєСЂРѕСЃС…РµРјСѓ, РІ СЃС…РµРјРµ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РЅРѕ Р±С‹Р»Рѕ Р±С‹ СЂР°Р·РѕР±СЂР°С‚СЊСЃСЏ Р·Р° РЅРµСЃРєРѕР»СЊРєРѕ РјРёРЅСѓС‚ вЂ” РЅРѕ РЅР°РєРѕРЅРµС† СЂРµС€РµРЅРёРµ Р±С‹Р»Рѕ РЅР°Р№РґРµРЅРѕ: ULN2003 вЂ” РјР°СЃСЃРёРІ
+a attrs: [('href', 'http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%BE%D0%B9_%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80#.D0.A1.D1.85.D0.B5.D0.BC.D0.B0_.D0.94.D0.B0.D1.80.D0.BB.D0.B8.D0.BD.D0.B3.D1.82.D0.BE.D0.BD.D0.B0')]
+С‚СЂР°РЅР·РёСЃС‚РѕСЂРѕРІ Р”Р°СЂР»РёРЅРіС‚РѕРЅР°
+.
+br attrs: []
 
-td attrs: [('id', 'v7'), ('class', 'calendar-item red')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=04.08.2013&stripe=politics')]
-4
+br attrs: []
+РќРµСЃРјРѕС‚СЂСЏ РЅР° СЃРІРѕСЋ РїСЂРѕСЃС‚РѕС‚Сѓ, РјРёРєСЂРѕСЃС…РµРјР° РґРѕ СЃРёС… РїРѕСЂ С€РёСЂРѕРєРѕ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ Рё РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ. ULN2003 СЃРѕСЃС‚РѕРёС‚ РёР· 21 СЂРµР·РёСЃС‚РѕСЂР°, 14 С‚СЂР°РЅР·РёСЃС‚РѕСЂРѕРІ Рё 7 РґРёРѕРґРѕРІ. РџСЂРёРјРµРЅСЏСЋС‚ РµС‘ РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РјРѕС‰РЅРѕР№ РЅР°РіСЂСѓР·РєРѕР№ (РґРѕ 50 РІРѕР»СЊС‚ / 0.5 Р°РјРїРµСЂ) РѕС‚ РЅРѕР¶РєРё РјРёРєСЂРѕРєРѕРЅС‚СЂРѕР»Р»РµСЂР° (РёР»Рё РґСЂСѓРіРёС… С†РёС„СЂРѕРІС‹С… РјРёРєСЂРѕСЃС…РµРј). РљР°РЅРѕРЅРёС‡РµСЃРєРѕРµ РїСЂРёРјРµРЅРµРЅРёРµ вЂ” РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РјРѕС‰РЅС‹РјРё 7-Рё СЃРµРіРјРµРЅС‚РЅС‹РјРё СЃРІРµС‚РѕРґРёРѕРґРЅС‹РјРё РёРЅРґРёРєР°С‚РѕСЂР°РјРё.
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189388/#habracut')]
+РЎРєР°Р»СЊРїРµР»СЊ, Р·Р°Р¶РёРј, РєРёРїСЏС‰Р°СЏ РєРёСЃР»РѕС‚Р°....
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189388')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+11995
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+134
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/BarsMonster/')]
+BarsMonster
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+971,2
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189388/#comments')]
+span attrs: [('class', 'all')]
+19
 
 
 
-td attrs: [('id', 'v8'), ('class', 'calendar-item lg')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=05.08.2013&stripe=politics')]
-5
 
-td attrs: [('id', 'v9'), ('class', 'calendar-item lg')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=06.08.2013&stripe=politics')]
-6
+div attrs: [('class', 'clear')]
 
-td attrs: [('id', 'v10'), ('class', 'calendar-item lg')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=07.08.2013&stripe=politics')]
-7
 
-td attrs: [('id', 'v11'), ('class', 'calendar-item lg active')]
-div attrs: []
-a attrs: [('href', '/archive.shtml?article=1&p=archive&start=08.08.2013&stripe=politics')]
-8
 
-td attrs: [('id', 'v12'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-9
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189374')]
 
-td attrs: [('id', 'v13'), ('class', 'calendar-item red no-h')]
-div attrs: []
-10
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 09:11
 
-td attrs: [('id', 'v14'), ('class', 'calendar-item red no-h')]
-div attrs: []
+h1 attrs: [('class', 'title')]
+
+a attrs: [('href', 'http://habrahabr.ru/post/189374/'), ('class', 'post_title')]
+NASA Р·Р°РїСѓСЃС‚РёР»Рѕ РїРµСЂРІС‹Р№ СЂСѓСЃСЃРєРѕСЏР·С‹С‡РЅС‹Р№ СЃР°Р№С‚
+
+
+div attrs: [('class', 'hubs')]
+
+a attrs: [('href', 'http://habrahabr.ru/hub/space/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РљРѕСЃРјРѕРЅР°РІС‚РёРєР°
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/crowdsourcing/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РљСЂР°СѓРґСЃРѕСЂСЃРёРЅРі
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/the_future_is_here/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р‘СѓРґСѓС‰РµРµ Р·РґРµСЃСЊ
+
+
+div attrs: [('class', 'content html_format')]
+РќРµ С‚Р°Рє РґР°РІРЅРѕ NASA РѕС‚РєСЂС‹Р»Рѕ СЂСѓСЃСЃРєРѕСЏР·С‹С‡РЅС‹Р№
+a attrs: [('href', 'https://twitter.com/HiRISERussian')]
+Twitter
+Рё Р°Р»СЊР±РѕРј
+a attrs: [('href', 'http://beautifulmars-russian.tumblr.com/')]
+Thumblr
+РїРѕСЃРІСЏС‰РµРЅРЅС‹Рµ РњР°СЂСЃСѓ. РўР°Рј РїСѓР±Р»РёРєСѓСЋС‚СЃСЏ РјР°С‚РµСЂРёР°Р»С‹, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РєРѕСЃРјРёС‡РµСЃРєРёРј Р°РїРїР°СЂР°С‚РѕРј Mars Reconnaissance Orbiter, Рё РµРіРѕ РєР°РјРµСЂРѕР№ РІС‹СЃРѕРєРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРёСЏ
+a attrs: [('href', 'http://habrahabr.ru/post/182584/')]
+HiRise
+. РќР°СѓС‡РЅРѕ-РїРѕРїСѓР»СЏСЂРЅС‹Рµ РіРµРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕР±Р·РѕСЂС‹, РїРѕРґРіРѕС‚РѕРІР»РµРЅРЅС‹Рµ Р°РјРµСЂРёРєР°РЅСЃРєРёРјРё РіРµРѕР»РѕРіР°РјРё, РїРµСЂРµРІРѕРґСЏС‚СЃСЏ СЂРѕСЃСЃРёР№СЃРєРёРјРё РІРѕР»РѕРЅС‚РµСЂР°РјРё, РєРѕС‚РѕСЂС‹Рµ РЅР°С€Р»Рё РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РїРѕСЃРІСЏС‚РёС‚СЊ СЌС‚РѕРјСѓ Р»РёС‡РЅРѕРµ РІСЂРµРјСЏ, РІРѕ РёРјСЏ РЅР°СѓРєРё Рё РњР°СЂСЃР°.
+br attrs: []
+
+br attrs: []
+РўРµРїРµСЂСЊ РјР°С‚РµСЂРёР°Р»РѕРІ РЅР°РєРѕРїРёР»РѕСЃСЊ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ, С‡С‚РѕР±С‹ РѕС‚РєСЂС‹С‚СЊ РїРѕР»РЅРѕС†РµРЅРЅС‹Р№ СЃР°Р№С‚.
+br attrs: []
+Р‘РµР· Р»РёС€РЅРёС… СЃР»РѕРІ, РґРѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РЅР° РњР°СЂСЃ:
+a attrs: [('href', 'http://www.uahirise.org/ru/')]
+www.uahirise.org/ru/
+br attrs: []
+
+br attrs: []
+
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189374/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189374')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+9625
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+48
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/Zelenyikot/')]
+Zelenyikot
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+837,8
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189374/#comments')]
+span attrs: [('class', 'all')]
 11
 
 
 
-td attrs: [('id', 'v15'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-12
 
-td attrs: [('id', 'v16'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-13
-
-td attrs: [('id', 'v17'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-14
-
-td attrs: [('id', 'v18'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-15
-
-td attrs: [('id', 'v19'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-16
-
-td attrs: [('id', 'v20'), ('class', 'calendar-item red no-h')]
-div attrs: []
-17
-
-td attrs: [('id', 'v21'), ('class', 'calendar-item red no-h')]
-div attrs: []
-18
+div attrs: [('class', 'clear')]
 
 
 
-td attrs: [('id', 'v22'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-19
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189340')]
 
-td attrs: [('id', 'v23'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-20
+div attrs: [('class', 'published')]
+РІС‡РµСЂР° РІ 18:15
 
-td attrs: [('id', 'v24'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-21
+h1 attrs: [('class', 'title')]
 
-td attrs: [('id', 'v25'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-22
-
-td attrs: [('id', 'v26'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-23
-
-td attrs: [('id', 'v27'), ('class', 'calendar-item red no-h')]
-div attrs: []
-24
-
-td attrs: [('id', 'v28'), ('class', 'calendar-item red no-h')]
-div attrs: []
-25
+a attrs: [('href', 'http://habrahabr.ru/post/189340/'), ('class', 'post_title')]
+РЎСЋСЂРїСЂРёР· РѕС‚ Microsoft, РёР»Рё РєС‚Рѕ С‚Р°РєРѕР№ PCBP РґР»СЏ Р РѕСЃСЃРёРё
 
 
+div attrs: [('class', 'hubs')]
 
-td attrs: [('id', 'v29'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-26
+a attrs: [('href', 'http://habrahabr.ru/hub/Dura_Lex/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Dura Lex
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/windows/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Windows
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/microsoft/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Microsoft
 
-td attrs: [('id', 'v30'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-27
 
-td attrs: [('id', 'v31'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-28
+div attrs: [('class', 'content html_format')]
 
-td attrs: [('id', 'v32'), ('class', 'calendar-item lg no-h')]
-div attrs: []
+br attrs: []
+
+br attrs: []
+Р’ Windows 8 Apps Store РґР»СЏ РєР°Р¶РґРѕР№ РёРіСЂС‹ РЅРµРѕР±С…РѕРґРёРјРѕ СѓРєР°Р·Р°С‚СЊ РјРёРЅРёРјР°Р»СЊРЅС‹Р№ РІРѕР·СЂР°СЃС‚, СЃ РєРѕС‚РѕСЂРѕРіРѕ РІ РЅРµРµ РјРѕР¶РЅРѕ РёРіСЂР°С‚СЊ. РўР°РєР¶Рµ С‚Р°Рј РµСЃС‚СЊ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ Р·Р°РіСЂСѓР·РёС‚СЊ СЃРµСЂС‚РёС„РёРєР°С‚С‹, РєРѕС‚РѕСЂС‹Рµ РїРѕРґС‚РІРµСЂР¶РґР°СЋС‚ СѓРєР°Р·Р°РЅРЅС‹Р№ РІРѕР·СЂР°СЃС‚. Р”Р»СЏ РЅРµРєРѕС‚РѕСЂС‹С… СЃС‚СЂР°РЅ С‚Р°РєРѕР№ СЃРµСЂС‚РёС„РёРєР°С‚ РµСЃС‚СЊ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рј, С‚Рѕ РµСЃС‚СЊ Р±РµР· РЅРµРіРѕ РЅРµР»СЊР·СЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ РІ СѓРєР°Р·Р°РЅРЅРѕР№ СЃС‚СЂР°РЅРµ. РЎРѕРІСЃРµРј РЅРµРґР°РІРЅРѕ Рє РљРѕСЂРµРµ, Р®Р¶РЅРѕР№ РђС„СЂРёРєРµ, Р‘СЂР°Р·РёР»РёРё Рё РўР°Р№РІР°РЅРё Р±С‹Р»Р° РґРѕР±Р°РІР»РµРЅР° Р РѕСЃСЃРёСЏ. РўРµРїРµСЂСЊ С‡С‚РѕР±С‹ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёРё РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ СЃРµСЂС‚РёС„РёРєР°С‚ PCBP.
+br attrs: []
+
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189340/#habracut')]
+РќРѕ РєР°Рє?
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189340')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+30564
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
 29
 
-td attrs: [('id', 'v33'), ('class', 'calendar-item lg no-h')]
-div attrs: []
-30
+div attrs: [('class', 'author')]
 
-td attrs: [('id', 'v34'), ('class', 'calendar-item red no-h')]
-div attrs: []
-31
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/seagull/')]
+seagull
 
-td attrs: [('id', 'v35'), ('class', 'calendar-item')]
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+59,9
 
 
+div attrs: [('class', 'comments')]
 
-td attrs: [('id', 'v36'), ('class', 'calendar-item')]
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189340/#comments')]
+span attrs: [('class', 'all')]
+57
 
-td attrs: [('id', 'v37'), ('class', 'calendar-item')]
 
-td attrs: [('id', 'v38'), ('class', 'calendar-item')]
 
-td attrs: [('id', 'v39'), ('class', 'calendar-item')]
 
-td attrs: [('id', 'v40'), ('class', 'calendar-item')]
+div attrs: [('class', 'clear')]
 
-td attrs: [('id', 'v41'), ('class', 'calendar-item red')]
 
-td attrs: [('id', 'v42'), ('class', 'calendar-item red')]
 
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_187720')]
 
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 13:57
 
+h1 attrs: [('class', 'title')]
 
-var sccd=08 //активная дата
-var sccm=7
-var sccy=2013
-var ccd=08 //временная дата
-var ccm=7
-var ccy=2013
-var article='1'
-var stripe='politics'
-var beg_date = '1.1.2002';
-Bcc = beg_date.split('.')
-var Bccd=Bcc[0]; // начало
-var Bccm=Bcc[1]-1;
-var Bccy=Bcc[2];
+a attrs: [('href', 'http://habrahabr.ru/post/187720/'), ('class', 'post_title')]
+Raytracing render РЅР° C
 
 
+div attrs: [('class', 'hubs')]
 
+a attrs: [('href', 'http://habrahabr.ru/hub/c/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+C
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/3d_graphics/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РђРЅРёРјР°С†РёСЏ Рё 3D РіСЂР°С„РёРєР°
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/programming/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РџСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
 
 
-
-
-div attrs: [('style', 'clear:both')]
-
-
-
-footer attrs: []
-
-
-
-section attrs: [('class', 'b-footer_articles')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/politics/')]
-Политика
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545693.shtml')]
-span attrs: []
-Избирком Владимирской области массово снимает с выборов кандидатов от...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545321.shtml')]
-span attrs: []
-Корреспондент
-Газеты.Ru
-побывал в столице Южной Осетии...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/politics/2013/08/07_a_5545129.shtml')]
-span attrs: []
-В ЦИК считают, что муниципальный фильтр должен еще поработать
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/business/')]
-Бизнес
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/business/2013/08/07/5545473.shtml')]
-span attrs: []
-Дмитрий Рогозин признал, что выполнение программы по строительству...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/business/2013/08/07/5545661.shtml')]
-span attrs: []
-Экс-генеральный директор
-Красной поляны
-Станислав...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/business/2013/08/07/5545533.shtml')]
-span attrs: []
-Промышленное производство в Германии в июне выросло на 2,4%, улучшения...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/social/')]
-Общество
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545465.shtml')]
-span attrs: []
-Создание депортационных центров для мигрантов осложняется отсутствием...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545541.shtml')]
-span attrs: []
-Россияне не могут вылететь на родину из-за пожара в международном...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/social/2013/08/07/5545605.shtml')]
-span attrs: []
-Суд в Пушкино лишил звания ветерана 90-летнего участника ВОВ Сергея...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/comments/')]
-Мнения
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/comments/2013/08/07_a_5544377.shtml')]
-span attrs: []
-Борис Фаликов о нарастающем свободомыслии католиков и англикан
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/comments/2013/08/06_a_5543097.shtml')]
-span attrs: []
-Алексей Мельников о том, что вызовам сегодняшнего дня не отвечает ни...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/comments/2013/08/05_a_5540785.shtml')]
-span attrs: []
-Сергей Черняховский о том, что защищать от издевательств нужно не...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/culture/')]
-Культура
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/culture/2013/08/07/a_5544841.shtml')]
-span attrs: []
-Продюсер Лео Фейгин рассказал
-Газете.Ru
-о фестивале Leo...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/culture/2013/08/07/a_5544681.shtml')]
-span attrs: []
-В Большом Манеже открылась выставка Lexus Hybrid Art-2013
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/culture/2013/08/07/a_5544333.shtml')]
-span attrs: []
-В прокат выходит фантастический боевик «Элизиум: Рай не на Земле» Нила...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-div attrs: [('class', 'news_cut cf')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/science/')]
-Наука
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/science/2013/08/07_a_5544469.shtml')]
-span attrs: []
-Благодаря раскопкам на севере Китая получены новые данные о появлении...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/science/2013/08/07_a_5544413.shtml')]
-span attrs: []
-В США создали самое маленькое изображение Джоконды
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/science/2013/08/06_a_5541937.shtml')]
-span attrs: []
-РАН необходима для успеха МФТИ и работает эффективнее вузов, уверен...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/auto/')]
-Авто
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/auto/2013/08/07_a_5545325.shtml')]
-span attrs: []
-На фоне роста смертности среди мотоциклистов байкеры требуют изменить...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/auto/2013/08/07_a_5544657.shtml')]
-span attrs: []
-Подросток в Татарстане спровоцировал крупную автокатастрофу, в которой...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/auto/2013/08/07_a_5544505.shtml')]
-span attrs: []
-СК изучит видеозапись задержания помощника прокурора Ставрополья...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/sport/')]
-Спорт
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/sport/2013/08/07/a_5545741.shtml')]
-span attrs: []
-Зенит
-разгромил
-Норшелланн
-в 3-м...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/sport/2013/08/07/a_5545401.shtml')]
-span attrs: []
-Красная карточка Халку отменена
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/sport/2013/08/07/a_5545677.shtml')]
-span attrs: []
-Действующий обладатель Кубка Гагарина начнет защиту титула в новом...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/realty/')]
-Недвижимость
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/realty/2013/08/06_a_5543909.shtml')]
-span attrs: []
-Новая Москва
-может стать бизнес-кластером только через...
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/realty/2013/08/05_a_5541533.shtml')]
-span attrs: []
-Риэлторы отвечают на вопросы читателей
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/realty/2013/08/01_a_5537065.shtml')]
-span attrs: []
-Что нужно знать о покупке недвижимости на вторичном рынке
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-aside attrs: []
-
-
-h5 attrs: [('class', 'block_header')]
-a attrs: [('href', '/travel/')]
-Путешествия
-
-ul attrs: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/travel/2013/08/06_a_5544325.shtml')]
-span attrs: []
-Как устроен аэропорт города Вевельгем
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/travel/2013/08/06_a_5542673.shtml')]
-span attrs: []
-Путевые заметки о Крыме: Новый Свет
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p attrs: [('class', 'intro')]
-
-a attrs: [('href', '/travel/2013/08/05_a_5542365.shtml')]
-span attrs: []
-Фотопутешествие по долине Дору
-span attrs: [('class', 'arrow_read_more')]
-
-
-
-
-
-
-div attrs: [('style', 'clear:both')]
-
-
-hr attrs: [('class', 'mt10 mb0')]
-
-
-
-div attrs: [('class', 'b-navbar m-navbar_level1')]
-
-nav attrs: []
-
-ul attrs: []
-
-
-a attrs: [('href', '/politics/'), ('class', 'stripe')]
-Политика
-
-
-a attrs: [('href', '/business/'), ('class', 'stripe')]
-Бизнес
-
-
-a attrs: [('href', '/social/'), ('class', 'stripe')]
-Общество
-
-
-a attrs: [('href', '/comments/'), ('class', 'stripe')]
-Мнения
-
-
-a attrs: [('href', '/culture/'), ('class', 'stripe')]
-Культура
-
-
-a attrs: [('href', '/science/'), ('class', 'stripe')]
-Наука
-
-
-a attrs: [('href', '/auto/'), ('class', 'stripe')]
-Авто
-
-
-a attrs: [('href', '/sport/'), ('class', 'stripe')]
-Спорт
-
-
-a attrs: [('href', '/tech/'), ('class', 'stripe')]
-Технологии
-
-
-a attrs: [('href', '/travel/'), ('class', 'stripe')]
-Путешествия
-
-
-a attrs: [('href', '/realty/'), ('class', 'stripe')]
-Недвижимость
-
-
-a attrs: [('href', '/health/'), ('class', 'stripe')]
-Здоровье
-
-
-
-
-div attrs: [('class', 'b-footer_logo vcard')]
-
-div attrs: [('class', 'logo fn org')]
-a attrs: [('href', '/')]
-
-div attrs: [('class', 'note')]
-Свидетельство о регистрации
+div attrs: [('class', 'content html_format')]
+РРјРµСЏ РѕРїС‹С‚ СЂР°Р·СЂР°Р±РѕС‚РєРё РЅР° РѕРґРЅРѕРј РёР· РІС‹СЃРѕРєРѕСѓСЂРѕРІРЅРµРІС‹С… СЏР·С‹РєРѕРІ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ, Р° С‚Р°РєР¶Рµ РёРЅС‚РµСЂРµСЃ Рє Р·Р°РґР°С‡Р°Рј РёР· СЂР°Р·Р»РёС‡РЅС‹С… РѕР±Р»Р°СЃС‚РµР№ РёРЅС„РѕСЂРјР°С‚РёРєРё, СЏ РЅР°РєРѕРЅРµС† РЅР°С€РµР» РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РѕРІР»Р°РґРµС‚СЊ РµС‰Рµ РѕРґРЅРёРј РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРј вЂ” СЏР·С‹РєРѕРј РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ РЎ. РСЃС…РѕРґСЏ РёР· СЃРѕР±СЃС‚РІРµРЅРЅРѕРіРѕ РѕРїС‹С‚Р° вЂ” Р·РЅР°РЅРёСЏ Р»СѓС‡С€Рµ СѓСЃРІР°РёРІР°СЋС‚СЃСЏ, РµСЃР»Рё РїСЂРёРјРµРЅСЏС‚СЊ РёС… РґР»СЏ СЂРµС€РµРЅРёСЏ РїСЂР°РєС‚РёС‡РµСЃРєРёС… Р·Р°РґР°С‡. РџРѕСЌС‚РѕРјСѓ, Р±С‹Р»Рѕ СЂРµС€РµРЅРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ СЃ РЅСѓР»СЏ Ray tracing СЂРµРЅРґРµСЂ (РїРѕСЃРєРѕР»СЊРєСѓ СѓРІР»РµРєР°СЋСЃСЊ РєРѕРјРїСЊСЋС‚РµСЂРЅРѕР№ РіСЂР°С„РёРєРѕР№ РµС‰С‘ СЃРѕ С€РєРѕР»СЊРЅС‹С… РІСЂРµРјРµРЅ).
 br attrs: []
-СМИ Эл № ФС77-28061
+
 br attrs: []
-от 27.04.2007 г.
-
-div attrs: [('class', 'adr')]
-
-Адрес учредителя:
-span attrs: [('class', 'postal-code')]
-125080
-,
-span attrs: [('class', 'country-name')]
-Россия
-,
-span attrs: [('class', 'locality')]
-Москва
-,
-span attrs: [('class', 'street-adress')]
-ул. Врубеля, д. 4
+Р’ РґР°РЅРЅРѕР№ СЃС‚Р°С‚СЊРµ С…РѕС‡Сѓ РїРѕРґРµР»РёС‚СЊСЃСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹Рј РїРѕРґС…РѕРґРѕРј Рё РїРѕР»СѓС‡РµРЅРЅС‹РјРё СЂРµР·СѓР»СЊС‚Р°С‚Р°РјРё.
+br attrs: []
 
 br attrs: []
 
-Адрес редакции:
-span attrs: [('class', 'postal-code')]
-127006
-,
-span attrs: [('class', 'country-name')]
-Россия
-,
-span attrs: [('class', 'locality')]
-Москва
-,
-span attrs: [('class', 'street-adress')]
-ул. Малая Дмитровка д.20
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/187720/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_187720')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+5695
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+103
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/stemm/')]
+stemm
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+78,6
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/187720/#comments')]
+span attrs: [('class', 'all')]
+20
+
+
+
+
+div attrs: [('class', 'clear')]
+
+
+
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_184308')]
+
+div attrs: [('class', 'published')]
+РІС‡РµСЂР° РІ 19:07
+
+h1 attrs: [('class', 'title')]
+
+a attrs: [('href', 'http://habrahabr.ru/post/184308/'), ('class', 'post_title')]
+РљРІРµСЃС‚, РєР°Рє РґРёРїР»РѕРјРЅС‹Р№ РїСЂРѕРµРєС‚
+
+span attrs: [('class', 'flag flag_tutorial'), ('title', 'РћР±СѓС‡Р°СЋС‰РёР№ РјР°С‚РµСЂРёР°Р»')]
+tutorial
+
+
+div attrs: [('class', 'hubs')]
+
+a attrs: [('href', 'http://habrahabr.ru/hub/study/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РЈС‡РµР±РЅС‹Р№ РїСЂРѕС†РµСЃСЃ РІ IT
+
+
+div attrs: [('class', 'content html_format')]
+Р”СѓРјР°СЋ, Р±РѕР»СЊС€РёРЅСЃС‚РІСѓ РїСЂРѕРіСЂР°РјРјРёСЃС‚РѕРІ С…РѕС‚РµР»РѕСЃСЊ РЅР°РїРёСЃР°С‚СЊ СЃРІРѕСЋ РёРіСЂСѓС€РєСѓ. РљРѕРјСѓ-С‚Рѕ С…РѕС‚РµР»РѕСЃСЊ СЂРµР°Р»РёР·РѕРІР°С‚СЊ СЃРІРѕР№ RPG РјРёСЂ, РєС‚Рѕ-С‚Рѕ РіСЂРµР·РёР» СЃРІРѕРµР№ СЃС‚СЂРµР»СЏР»РєРѕР№, Р° РІРѕС‚ СЏ РІСЃРµРіРґР° С…РѕС‚РµР» СЃРґРµР»Р°С‚СЊ СЃРІРѕР№ РєРІРµСЃС‚.
+br attrs: []
+
+br attrs: []
+РџСЂРёРјРµСЂРЅРѕ РіРѕРґ РЅР°Р·Р°Рґ СЃ РїСЂРµРґР»РѕР¶РµРЅРёРµРј РїРѕСѓС‡Р°СЃС‚РІРѕРІР°С‚СЊ РІ РґРёРїР»РѕРјРЅРѕРј РїСЂРѕРµРєС‚Рµ РєРѕ РјРЅРµ РѕР±СЂР°С‚РёР»Р°СЃСЊ РїРѕРґСЂСѓРіР°, РЅРµРїРѕСЃСЂРµРґСЃС‚РІРµРЅРЅРѕ РїСЂРёР±Р»РёР·РёРІС€Р°СЏСЃСЏ Рє Р·Р°С‰РёС‚Рµ. РЈ РјРµРЅСЏ РґР°РІРЅРѕ Р·СЂРµР»Р° РёРґРµСЏ СЂРµР°Р»РёР·РѕРІР°С‚СЊ СЃРѕР±СЃС‚РІРµРЅРЅС‹Р№ РєРІРµСЃС‚, РЅРѕ РІСЃРµ РєР°Рє-С‚Рѕ РЅРµ РґРѕС…РѕРґРёР»Рё СЂСѓРєРё, РґР° Рё Р·РЅР°РєРѕРјС‹Рµ С…СѓРґРѕР¶РЅРёРєРё, РіРѕС‚РѕРІС‹Рµ РїРѕРјРѕС‡СЊ РІ СЂРµР°Р»РёР·Р°С†РёРё СЌС‚РѕР№ РёРґРµРё РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°Р»Рё. РќРѕ РёРјРµРЅРЅРѕ РІ СЌС‚РѕС‚ РјРѕРјРµРЅС‚, СЏ РїРѕРЅСЏР», С‡С‚Рѕ РїРѕСЂР° РІС‹С‚Р°С‰РёС‚СЊ СЃРѕРѕР±СЂР°Р¶РµРЅРёСЏ Рё РѕРїС‹С‚ РІ СЌС‚РѕРј РЅР°РїСЂР°РІР»РµРЅРёРё Рё Р·Р°РЅСЏС‚СЊСЃСЏ РЅР°РїРёСЃР°РЅРёРµРј СЃРІРѕРµР№ РёРіСЂС‹ Р±РѕР»РµРµ СЃРµСЂСЊРµР·РЅРѕ. РЎРѕР±СЃС‚РІРµРЅРЅРѕ, РІ РєР°С‡РµСЃС‚РІРµ РґРёРїР»РѕРјРЅРѕРіРѕ РїСЂРѕРµРєС‚Р° Рё Р±С‹Р»Рѕ РїСЂРµРґР»РѕР¶РµРЅРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ СЃРІРѕСЋ РёРіСЂСѓ.
+br attrs: []
+
+br attrs: []
+РЎСЂР°Р·Сѓ РѕРіРѕРІРѕСЂСЋСЃСЊ, С‡С‚Рѕ СЃС‚СѓРґРµРЅС‚РєР° РЅРµ РїСЂРѕРіСЂР°РјРјРёСЃС‚ Рё СѓС‡РёР»Р°СЃСЊ РїРѕ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё В«РґРёР·Р°Р№РЅ РІ РёРЅС„РѕСЂРјР°С‚РёРєРµВ» (РёР»Рё С‡С‚Рѕ-С‚Рѕ Р°РЅР°Р»РѕРіРёС‡РЅРѕ-РЅРµРІСЂР°Р·СѓРјРёС‚РµР»СЊРЅРѕРµ), С‚Р°Рє С‡С‚Рѕ РЅРµ СЃС‚РѕРёС‚ РѕР¶РёС‚СЊ РєР°РєРёС…-С‚Рѕ СЃСѓСЂРѕРІС‹С… Р°Р»РіРѕСЂРёС‚РјРѕРІ. РЎ СЃС‚Р°С‚СЊРµ РїСЂРѕРёР»Р»СЋСЃС‚СЂРёСЂРѕРІР°РЅС‹ СЌС‚Р°РїС‹ СЃРѕР·РґР°РЅРёСЏ РєРІРµСЃС‚Р° Рё РІС‹Р»РѕР¶РµРЅС‹ РЅРµРєРѕС‚РѕСЂС‹Рµ РјР°С‚РµСЂРёР°Р»С‹ РїРѕ СЂР°Р±РѕС‚Рµ.
+br attrs: []
+
+br attrs: []
+РЇ РїРѕСЃС‚Р°СЂР°СЋСЃСЊ СЂР°СЃСЃРєР°Р·Р°С‚СЊ Рѕ С‚РѕРј, РєР°РєРёРµ СЌС‚Р°РїС‹ Р±С‹Р»Рё РїСЂРѕР№РґРµРЅС‹ РЅР° РїСѓС‚Рё Рє СѓСЃРїРµС…Сѓ, С‡С‚Рѕ РїСЂРёС€Р»РѕСЃСЊ Рё РєР°Рє РїСЂРёС€Р»РѕСЃСЊ СЂРµР°Р»РёР·РѕРІР°С‚СЊ, Рё РѕС‚ С‡РµРіРѕ РѕС‚РєР°Р·Р°С‚СЊСЃСЏ.
+br attrs: []
 
 br attrs: []
 
-Телефон редакции:
-span attrs: [('class', 'tel')]
-+7 (495) 980 80 28
-|
-span attrs: [('class', 'tel')]
+div attrs: [('class', 'buttons')]
 
-span attrs: [('class', 'type')]
-Факс
-:
-span attrs: [('class', 'value')]
-+7 (495) 980 90 73
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/184308/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
 
 
+div attrs: [('class', 'clear')]
 
 
-div attrs: [('class', 'b-footer_nav_bar')]
+div attrs: [('class', 'infopanel_wrapper')]
 
-nav attrs: [('class', 'main_navigation')]
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_184308')]
 
-a attrs: [('href', '/history.shtml')]
-архив
+div attrs: [('class', 'voting   ')]
 
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
-a attrs: [('href', '/about/')]
-редакция
+div attrs: [('class', 'mark')]
 
-a attrs: [('href', 'http://temanews.ru/partners/gazeta/')]
-новости на мобильный
-
-a attrs: [('href', '/adbook/')]
-реклама
-
-a attrs: [('href', '/conference/')]
-Онлайн-конференции
-
-a attrs: [('href', '/feedback/')]
-обратная связь
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
 
 
-
-div attrs: [('class', 'b-soc_buttons b-soc_buttons_footer_search')]
-
-
-ul attrs: []
-
-a attrs: [('href', 'http://m.gazeta.ru/')]
-Мобильная версия
-
-a attrs: [('href', '/export_news.shtml')]
-RSS
-
-a attrs: [('title', 'Добавить в закладки'), ('onmouseover', "self.status='Добавить в закладки';return true"), ('onmouseout', "self.status=''"), ('href', 'javascript:void(0);'), ('onclick', 'return bookmark(this);')]
-В закладки
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
 
 
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+19421
 
-input attrs: [('type', 'hidden'), ('name', 'p'), ('value', 'search')]
+div attrs: [('class', 'favorite')]
 
-input attrs: [('type', 'hidden'), ('name', 'how'), ('value', 'pt')]
-
-input attrs: [('type', 'text'), ('name', 'text'), ('placeholder', 'Поиск'), ('class', 'window')]
-
-input attrs: [('type', 'image'), ('class', 'lupa'), ('alt', 'Искать'), ('title', 'Искать'), ('src', 'http://static.gazeta.ru/nm2012/i/0.png')]
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
 
 
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+94
 
-span attrs: []
-18+
+div attrs: [('class', 'author')]
 
-a attrs: [('href', 'http://lj.gazeta.ru'), ('target', '_blank')]
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/Silf/')]
+Silf
 
-a attrs: [('href', 'http://youtube.com/gazetaru'), ('target', '_blank')]
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+77,3
 
-a attrs: [('href', 'https://plus.google.com/b/105541962280031022515/105541962280031022515/posts'), ('target', '_blank')]
 
-a attrs: [('href', 'http://vk.com/gazeta'), ('target', '_blank')]
+div attrs: [('class', 'comments')]
 
-a attrs: [('href', 'http://www.twitter.com/gazetaru'), ('target', '_blank')]
-
-a attrs: [('href', 'http://www.facebook.com/gazeta.ru'), ('target', '_blank')]
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/184308/#comments')]
+span attrs: [('class', 'all')]
+22
 
 
 
 
+div attrs: [('class', 'clear')]
 
-div attrs: [('class', 'b-footer_info')]
+
+
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189362')]
+
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 13:53
+
+h1 attrs: [('class', 'title')]
+
+a attrs: [('href', 'http://habrahabr.ru/company/yandex/blog/189362/'), ('class', 'post_title')]
+РўРµС…РЅРѕР»РѕРіРёСЏ Real Time MapReduce. РљР°Рє СѓСЃРєРѕСЂРёС‚СЊ С‡С‚Рѕ-С‚Рѕ РѕС‡РµРЅСЊ Р±РѕР»СЊС€РѕРµ
+
+
+div attrs: [('class', 'hubs')]
+
+a attrs: [('href', 'http://habrahabr.ru/hub/cloud_computing/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РћР±Р»Р°С‡РЅС‹Рµ РІС‹С‡РёСЃР»РµРЅРёСЏ
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/algorithms/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РђР»РіРѕСЂРёС‚РјС‹
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/company/yandex/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р‘Р»РѕРі РєРѕРјРїР°РЅРёРё РЇРЅРґРµРєСЃ
+
+
+div attrs: [('class', 'content html_format')]
+РќРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ РЅР°Р·Р°Рґ РјС‹
+a attrs: [('href', 'http://habrahabr.ru/company/yandex/blog/181514/')]
+СЂР°СЃСЃРєР°Р·С‹РІР°Р»Рё РЅР° РҐР°Р±СЂРµ
+Рѕ С‚РѕРј, С‡С‚Рѕ РїРѕРёСЃРє РЇРЅРґРµРєСЃР° СЃС‚Р°Р» Р±РѕР»РµРµ РїРµСЂСЃРѕРЅР°Р»РёР·РёСЂРѕРІР°РЅРЅС‹Рј. РћРЅ СѓС‡РёС‚С‹РІР°РµС‚ РЅРµ С‚РѕР»СЊРєРѕ РїРѕСЃС‚РѕСЏРЅРЅС‹Рµ, РЅРѕ Рё СЃРёСЋРјРёРЅСѓС‚РЅС‹Рµ РёРЅС‚РµСЂРµСЃС‹ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РѕСЂРёРµРЅС‚РёСЂСѓСЏСЃСЊ РЅР° РїРѕСЃР»РµРґРЅРёРµ РЅРµСЃРєРѕР»СЊРєРѕ Р·Р°РїСЂРѕСЃРѕРІ Рё РґРµР№СЃС‚РІРёР№.
+br attrs: []
+
+br attrs: []
+РЎРµРіРѕРґРЅСЏ РјС‹ С…РѕС‚РёРј СЂР°СЃСЃРєР°Р·Р°С‚СЊ Рѕ С‚РµС…РЅРѕР»РѕРіРёРё Real Time MapReduce, Р±Р»Р°РіРѕРґР°СЂСЏ РєРѕС‚РѕСЂРѕР№ РІСЃС‘ СЌС‚Рѕ СЃС‚Р°Р»Рѕ РІРѕР·РјРѕР¶РЅРѕ. РћРЅР° РѕР±РµСЃРїРµС‡РёРІР°РµС‚ РїРµСЂРµРґР°С‡Сѓ Рё РѕР±СЂР°Р±РѕС‚РєСѓ РѕРіСЂРѕРјРЅС‹С… РѕР±СЉС‘РјРѕРІ РґР°РЅРЅС‹С…, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ СЌС‚РѕР№ Р·Р°РґР°С‡Рё, Рё С‡С‚РѕР±С‹ СЃРґРµР»Р°С‚СЊ СЌС‚Рѕ, РЅР°Рј РґР°Р¶Рµ РЅРµ РїСЂРёС€Р»РѕСЃСЊ РїРµСЂРµРїРёСЃС‹РІР°С‚СЊ РєРѕРґ РґР»СЏ MapReduce, РєРѕС‚РѕСЂС‹Р№ Сѓ РЅР°СЃ СѓР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°Р»СЃСЏ.
+br attrs: []
+
+br attrs: []
+
+a attrs: [('href', 'http://habrahabr.ru/company/yandex/blog/189362/')]
+br attrs: []
+
+br attrs: []
+Р§С‚РѕР±С‹ РїРµСЂСЃРѕРЅР°Р»РёР·РёСЂРѕРІР°С‚СЊ РїРѕРёСЃРєРѕРІСѓСЋ РІС‹РґР°С‡Сѓ, РЅСѓР¶РЅРѕ РѕРїСЂРµРґРµР»РёС‚СЊ РєСЂСѓРі РёРЅС‚РµСЂРµСЃРѕРІ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РґР»СЏ С‡РµРіРѕ РјС‹ СЃРѕС…СЂР°РЅСЏРµРј РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РµРіРѕ РїРѕРІРµРґРµРЅРёРё РЅР° СЃС‚СЂР°РЅРёС†Рµ РїРѕРёСЃРєР°. Р”Р°РЅРЅС‹Рµ Рѕ РґРµР№СЃС‚РІРёСЏС… РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ Р·Р°РїРёСЃС‹РІР°СЋС‚СЃСЏ РІ Р»РѕРіРё, Р° Р·Р°С‚РµРј РѕР±СЂР°Р±Р°С‚С‹РІР°СЋС‚СЃСЏ РїСЂРё РїРѕРјРѕС‰Рё СЃРїРµС†РёР°Р»СЊРЅС‹С… Р°Р»РіРѕСЂРёС‚РјРѕРІ, РєРѕС‚РѕСЂС‹Рµ РїРѕР·РІРѕР»СЏСЋС‚ РЅР°Рј СЃРѕСЃС‚Р°РІРёС‚СЊ РЅР°РёР±РѕР»РµРµ СЂРµР»РµРІР°РЅС‚РЅСѓСЋ РІС‹РґР°С‡Сѓ РїРѕ Р·Р°РїСЂРѕСЃСѓ РґР»СЏ РєР°Р¶РґРѕРіРѕ РѕС‚РґРµР»СЊРЅРѕ РІР·СЏС‚РѕРіРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ. РЎРЅР°С‡Р°Р»Р° РѕР±СЂР°Р±РѕС‚РєР° Р»РѕРіРѕРІ Р·Р°РїСѓСЃРєР°Р»Р°СЃСЊ СЂР°Р· РІ СЃСѓС‚РєРё, РґР»СЏ С‡РµРіРѕ РѕС‡РµРЅСЊ С…РѕСЂРѕС€Рѕ РїРѕРґС…РѕРґРёР»Р° С‚РµС…РЅРѕР»РѕРіРёСЏ СЂР°СЃРїСЂРµРґРµР»РµРЅРЅС‹С… РІС‹С‡РёСЃР»РµРЅРёР№
+a attrs: [('href', 'http://ru.wikipedia.org/wiki/MapReduce/')]
+MapReduce
+. РћРЅР° РїСЂРµРєСЂР°СЃРЅРѕ СЃРїСЂР°РІР»СЏРµС‚СЃСЏ СЃ Р°РЅР°Р»РёР·РѕРј Р·РЅР°С‡РёС‚РµР»СЊРЅС‹С… РѕР±СЉРµРјРѕРІ РґР°РЅРЅС‹С….
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/company/yandex/blog/189362/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189362')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+5096
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+77
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/elcoyot/')]
+elcoyot
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+42,7
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/company/yandex/blog/189362/#comments')]
+span attrs: [('class', 'all')]
+12
+
+
+
+
+div attrs: [('class', 'clear')]
+
+
+
+div attrs: [('class', 'post translation shortcuts_item'), ('id', 'post_188580')]
+
+div attrs: [('class', 'published')]
+СЃРµРіРѕРґРЅСЏ РІ 13:07
+
+h1 attrs: [('class', 'title')]
+
+a attrs: [('href', 'http://habrahabr.ru/post/188580/'), ('class', 'post_title')]
+РџРѕС‡РµРјСѓ РІРµР±-РїСЂРёР»РѕР¶РµРЅРёСЏ РЅР° РјРѕР±РёР»СЊРЅС‹С… РїР»Р°С‚С„РѕСЂРјР°С… СЂР°Р±РѕС‚Р°СЋС‚ РјРµРґР»РµРЅРЅРѕ
+
+span attrs: [('class', 'flag flag_translation')]
+РїРµСЂРµРІРѕРґ
+
+
+div attrs: [('class', 'hubs')]
+
+a attrs: [('href', 'http://habrahabr.ru/hub/development/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р Р°Р·СЂР°Р±РѕС‚РєР°
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/mobile/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+РњРѕР±РёР»СЊРЅС‹Р№ РІРµР±
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/webdev/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р’РµР±-СЂР°Р·СЂР°Р±РѕС‚РєР°
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+
+
+div attrs: [('class', 'content html_format')]
+
+blockquote attrs: []
+i attrs: []
+h6 attrs: []
+РћС‚ РїРµСЂРµРІРѕРґС‡РёРєР°
+Р­С‚Рѕ РїРµСЂРµРІРѕРґ СЃС‚Р°С‚СЊРё Drew Crawford
+a attrs: [('href', 'http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/')]
+В«Why mobile web apps are slow
+В», РѕРїСѓР±Р»РёРєРѕРІР°РЅРЅРѕР№ 09 РёСЋР»СЏ 2013. РЎС‚Р°С‚СЊСЏ РѕС‡РµРЅСЊ РёРЅС‚РµСЂРµСЃРЅР°СЏ, РЅРѕ Р±РѕР»СЊС€Р°СЏ вЂ” РѕС€РёР±РєРё РІРѕР·РјРѕР¶РЅС‹ вЂ” РїСЂРѕС€Сѓ РїСЂРѕСЃС‚РёС‚СЊ Рё РїСЂРёСЃС‹Р»Р°С‚СЊ Р·Р°РјРµС‡Р°РЅРёСЏ РІ Р»РёС‡РєСѓ.
+br attrs: []
+
+u attrs: []
+РџРѕСЃРєРѕР»СЊРєСѓ Р·Р°С‚СЂРѕРЅСѓС‚Р° РѕСЃС‚СЂР°СЏ С‚РµРјР°, РїСЂРѕС€Сѓ Р·Р°РјРµС‚РёС‚СЊ, С‡С‚Рѕ РїРµСЂРµРІРѕРґС‡РёРє РЅРµ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ СЂР°Р·РґРµР»СЏРµС‚ РјРЅРµРЅРёРµ Р°РІС‚РѕСЂР° СЃС‚Р°С‚СЊРё
+!
+br attrs: []
+РџСЂРё РїРµСЂРµРІРѕРґРµ С‚РµРєСЃС‚ СЃР»РµРіРєР° РІРёРґРѕРёР·РјРµРЅСЏР»СЃСЏ, РїРѕСЃРєРѕР»СЊРєСѓ РїСЂСЏРјРѕР№ РїРµСЂРµРІРѕРґ РЅРµ РІСЃРµРіРґР° РїРѕРЅСЏС‚РЅРѕ РїРµСЂРµРґР°РµС‚ СЃРјС‹СЃР». Р”Р»СЏ РїРµСЂРµРІРѕРґР° С‚РµСЂРјРёРЅР°
+i attrs: []
+В«native codeВ»
+Р±С‹Р» РёСЃРїРѕР»СЊР·РѕРІР°РЅ Р°РЅРіР»РёС†РёР·Рј
+i attrs: []
+В«РЅР°С‚РёРІРЅС‹Р№ РєРѕРґВ»
+, РєРѕС‚РѕСЂС‹Р№ РїРѕРЅСЏС‚РЅРµРµ Рё РєРѕСЂРѕС‡Рµ, С‡РµРј
+i attrs: []
+В«СЂРѕРґРЅРѕР№ РґР»СЏ РїР»Р°С‚С„РѕСЂРјС‹ РєРѕРґВ»
+. РўРµСЂРјРёРЅ
+i attrs: []
+В«word processingВ»
+РїРµСЂРµРІРѕРґРёС‚СЃСЏ РєР°Рє
+i attrs: []
+В«РІРµСЂСЃС‚РєР° С‚РµРєСЃС‚Р°В»
+, С…РѕС‚СЏ СЌС‚Рѕ РЅРµРјРЅРѕРіРѕ СЃСѓР¶Р°РµС‚ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ СЃРјС‹СЃР». РўРµСЂРјРёРЅ managed РєРѕРґ (В«СѓРїСЂР°РІР»СЏРµРјС‹Р№ РєРѕРґВ») РЅРµ Р±С‹Р» РїРµСЂРµРІРµРґРµРЅ, С‚Р°Рє РєР°Рє СѓРґР°С‡РЅРѕРіРѕ РїРµСЂРµРІРѕРґ (РЅР° РІР·РіР»СЏРґ РїРµСЂРµРІРѕРґС‡РёРєР°) РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚. РџРѕРґ В«С‚РµСЂРјРёРЅРёСЂРѕРІР°РЅРёРµРјВ» РїСЂРёР»РѕР¶РµРЅРёСЏ РїРѕРґСЂР°Р·СѓРјРµРІР°РµС‚СЃСЏ РµРіРѕ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕРµ Р·Р°РІРµСЂС€РµРЅРёРµ РѕРїРµСЂР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјРѕР№.
+br attrs: []
+РџРѕРІРµСЃС‚РІРѕРІР°РЅРёРµ РІ СЃС‚Р°С‚СЊРµ РІРµРґРµС‚СЃСЏ РѕС‚ РїРµСЂРІРѕРіРѕ Р»РёС†Р°: Р°РІС‚РѕСЂР° СЃС‚Р°С‚СЊРё.
+br attrs: []
+
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/188580/#habracut')]
+Р§РёС‚Р°С‚СЊ СЃС‚Р°С‚СЊСЋ
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_188580')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+5526
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+90
+
+div attrs: [('class', 'original-author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ РѕСЂРёРіРёРЅР°Р»Р°: Drew Crawford'), ('href', 'http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/')]
+Drew Crawford
+
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/Krovosos/')]
+Krovosos
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+75,6
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/188580/#comments')]
+span attrs: [('class', 'all')]
+16
+
+
+
+
+div attrs: [('class', 'clear')]
+
+
+
+div attrs: [('class', 'post shortcuts_item'), ('id', 'post_189348')]
+
+div attrs: [('class', 'published')]
+РІС‡РµСЂР° РІ 18:58
+
+h1 attrs: [('class', 'title')]
+
+a attrs: [('href', 'http://habrahabr.ru/post/189348/'), ('class', 'post_title')]
+Р”Р¶РѕРЅ РљР°СЂРјР°Рє РїСЂРёСЃРѕРµРґРёРЅСЏРµС‚СЃСЏ Рє Oculus РёвЂ¦ РІСЃРµ-С‚Р°РєРё РѕСЃС‚Р°РµС‚СЃСЏ РІ id Software
+
+
+div attrs: [('class', 'hubs')]
+
+a attrs: [('href', 'http://habrahabr.ru/hub/augmented_reality/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Р”РѕРїРѕР»РЅРµРЅРЅР°СЏ СЂРµР°Р»СЊРЅРѕСЃС‚СЊ
+,
+a attrs: [('href', 'http://habrahabr.ru/hub/gdev/'), ('class', 'hub '), ('title', 'Р’С‹ РЅРµ РїРѕРґРїРёСЃР°РЅС‹ РЅР° СЌС‚РѕС‚ С…Р°Р±')]
+Game Development
+span attrs: [('class', 'profiled_hub'), ('title', 'РџСЂРѕС„РёР»СЊРЅС‹Р№ С…Р°Р±')]
+*
+
+
+div attrs: [('class', 'content html_format')]
+
+div attrs: [('style', 'text-align:center;')]
+br attrs: []
+РЎРµРіРѕРґРЅСЏ СЂСѓРєРѕРІРѕРґСЃС‚РІРѕ Oculus СЃРѕРѕР±С‰РёР»Рѕ РЅРµРѕР¶РёРґР°РЅРЅСѓСЋ РЅРѕРІРѕСЃС‚СЊ: РЅРµ РЅСѓР¶РґР°СЋС‰РёР№СЃСЏ РІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё Р”Р¶РѕРЅ РљР°СЂРјР°Рє РѕС„РёС†РёР°Р»СЊРЅРѕ РїСЂРёСЃРѕРµРґРёРЅСЏРµС‚СЃСЏ Рє РєРѕРјР°РЅРґРµ СЃРѕР·РґР°С‚РµР»РµР№ Oculus Rift РІ РєР°С‡РµСЃС‚РІРµ РіР»Р°РІРЅРѕРіРѕ С‚РµС…РЅРёС‡РµСЃРєРѕРіРѕ РґРёСЂРµРєС‚РѕСЂР° (CTO).
+br attrs: []
+
+br attrs: []
+РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РЅРѕРІРѕСЃС‚РЅС‹Рµ РёР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РёР»Рё, С‡С‚Рѕ РљР°СЂРјР°Рє РїРѕРєРёРЅСѓР» РѕСЃРЅРѕРІР°РЅРЅСѓСЋ РёРј СЃС‚СѓРґРёСЋ id Software. РџРѕР·Р¶Рµ РёР·РґР°С‚РµР»СЊСЃС‚РІРѕ Bethesda Рё id Software РѕС‚РІРµС‚РёР»Рё РЅР° СЌС‚Рѕ
+a attrs: [('href', 'http://www.vg247.com/2013/08/07/john-carmack-has-left-id-software-for-oculus/')]
+Р·Р°РІРµСЂРµРЅРёСЏРјРё
+, С‡С‚Рѕ РљР°СЂРјР°Рє РѕСЃС‚Р°РµС‚СЃСЏ РІ id Рё РЅР° РёРіСЂС‹, РЅР°Рґ РєРѕС‚РѕСЂС‹РјРё СЃРµР№С‡Р°СЃ СЂР°Р±РѕС‚Р°РµС‚ СЃС‚СѓРґРёСЏ, Р·Р°РЅСЏС‚РѕСЃС‚СЊ РљР°СЂРјР°РєР° РґСЂСѓРіРёРј РїСЂРѕРµРєС‚РѕРј РЅРµ РїРѕРІР»РёСЏРµС‚. РўРµРј РЅРµ РјРµРЅРµРµ, РѕС‚РЅС‹РЅРµ
+a attrs: [('href', 'https://twitter.com/id_aa_carmack/status/365126783290445824')]
+РЅРµ РјРµРЅРµРµ РІР°Р¶РЅС‹Р№
+РїСЂРѕРµРєС‚ РґР»СЏ РљР°СЂРјР°РєР° вЂ” Oculus Rift, Р° РЅРµ С‚РѕР»СЊРєРѕ Doom 4, РєРѕС‚РѕСЂС‹Р№,
+a attrs: [('href', 'http://lenta.ru/news/2013/08/05/doom/')]
+РєР°Рє СЃРѕРѕР±С‰Р°Р»РѕСЃСЊ РІРµСЃРЅРѕР№
+, СЃРµР№С‡Р°СЃ РїРµСЂРµРґРµР»С‹РІР°СЋС‚ СЃ РЅСѓР»СЏ.
+br attrs: []
+
+br attrs: []
+Р”Р¶РѕРЅ РљР°СЂРјР°Рє РґР°РІРЅРѕ РёР·РІРµСЃС‚РµРЅ РєР°Рє СЃС‚СЂР°СЃС‚РЅС‹Р№ РїРѕРєР»РѕРЅРЅРёРє СѓСЃС‚СЂРѕР№СЃС‚РІ Oculus Rift. РРјРµРЅРЅРѕ РѕРЅ РїСЂРµРґСЃС‚Р°РІРёР» РїСЂРѕС‚РѕС‚РёРї СЃС‚РµСЂРµРѕРІРёР·РѕСЂР° РЅР° РІС‹СЃС‚Р°РІРєРµ E3 РІ 2012 РіРѕРґСѓ Рё Р°РЅРѕРЅСЃРёСЂРѕРІР°Р» РїРµСЂРІСѓСЋ РёРіСЂСѓ, РєРѕС‚РѕСЂР°СЏ РїРѕР»СѓС‡РёР»Р° РїРѕРґРґРµСЂР¶РєСѓ СѓСЃС‚СЂРѕР№СЃС‚РІР° вЂ” Doom 3 BFG Edition.
+br attrs: []
+
+div attrs: [('class', 'buttons')]
+
+a attrs: [('class', 'button habracut'), ('href', 'http://habrahabr.ru/post/189348/#habracut')]
+Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ
+
+
+div attrs: [('class', 'clear')]
+
+
+div attrs: [('class', 'infopanel_wrapper')]
+
+div attrs: [('class', 'infopanel '), ('id', 'infopanel_post_189348')]
+
+div attrs: [('class', 'voting   ')]
+
+span attrs: [('class', 'plus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+div attrs: [('class', 'mark')]
+
+span attrs: [('class', 'score'), ('title', 'Р РµР·СѓР»СЊС‚Р°С‚ РіРѕР»РѕСЃРѕРІР°РЅРёСЏ РІРёРґРµРЅ С‚РѕР»СЊРєРѕ Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј')]
+вЂ”
+
+
+span attrs: [('class', 'minus'), ('title', 'Р“РѕР»РѕСЃРѕРІР°С‚СЊ РјРѕРіСѓС‚ С‚РѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё.')]
+
+
+div attrs: [('class', 'pageviews'), ('title', 'РџСЂРѕСЃРјРѕС‚СЂС‹ РїРѕСЃС‚Р°')]
+19403
+
+div attrs: [('class', 'favorite')]
+
+a attrs: [('class', 'guest'), ('href', '#'), ('onclick', 'return false;'), ('title', 'РўРѕР»СЊРєРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё РјРѕРіСѓС‚ РґРѕР±Р°РІР»СЏС‚СЊ РїРѕСЃС‚С‹ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+
+
+div attrs: [('class', 'favs_count'), ('title', 'РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РґРѕР±Р°РІРёРІС€РёС… РїРѕСЃС‚ РІ РёР·Р±СЂР°РЅРЅРѕРµ')]
+13
+
+div attrs: [('class', 'author')]
+
+a attrs: [('title', 'РђРІС‚РѕСЂ С‚РµРєСЃС‚Р°'), ('href', 'http://habrahabr.ru/users/HotWaterMusic/')]
+HotWaterMusic
+
+span attrs: [('class', 'rating'), ('title', 'СЂРµР№С‚РёРЅРі РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ')]
+593,1
+
+
+div attrs: [('class', 'comments')]
+
+a attrs: [('title', 'Р§РёС‚Р°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёРё'), ('href', 'http://habrahabr.ru/post/189348/#comments')]
+span attrs: [('class', 'all')]
+17
+
+
+
+
+div attrs: [('class', 'clear')]
+
+
+
+
+div attrs: [('class', 'page-nav')]
+
+ul attrs: [('class', 'next-prev')]
+
+в†ђ
+СЃСЋРґР°
+
+a attrs: [('title', 'РќР° СЃС‚СЂР°РЅРёС†Сѓ РІРїРµСЂРµРґ (Alt + в†’)'), ('class', 'next'), ('id', 'next_page'), ('href', '/page2/'), ('rel', '')]
+С‚СѓРґР°
+в†’
+
+
+ul attrs: [('id', 'nav-pages')]
+
+1
+
+a attrs: [('href', '/page2/')]
+2
+
+a attrs: [('href', '/page3/')]
+3
+
+a attrs: [('href', '/page4/')]
+4
+
+a attrs: [('href', '/page5/')]
+5
+
+
+
+
+input attrs: [('type', 'hidden'), ('name', 'action'), ('value', 'add')]
+
+input attrs: [('type', 'hidden'), ('name', 'ti'), ('value', '0')]
+
+input attrs: [('type', 'hidden'), ('name', 'tt'), ('value', '0')]
+
+label attrs: []
+РџРѕРјРµС‚СЊС‚Рµ С‚РѕРїРёРє РїРѕРЅСЏС‚РЅС‹РјРё РІР°Рј РјРµС‚РєР°РјРё, РµСЃР»Рё С…РѕС‚РёС‚Рµ
+
+input attrs: [('type', 'text'), ('name', 'tags_string'), ('class', 'tags_string')]
+
+div attrs: [('class', 'description')]
+РњРµС‚РєРё Р»СѓС‡С€Рµ СЂР°Р·РґРµР»СЏС‚СЊ Р·Р°РїСЏС‚РѕР№. РќР°РїСЂРёРјРµСЂ:
+i attrs: []
+РѕР±С‰РµРЅРёРµ, СЃРѕС†РёР°Р»СЊРЅС‹Рµ СЃРµС‚Рё, myspace.com, РїРѕРґСЂРѕСЃС‚РєРё, РјРµСЂРґРѕРє
+
+div attrs: [('class', 'buttons')]
+
+input attrs: [('type', 'submit'), ('value', 'РЎРѕС…СЂР°РЅРёС‚СЊ'), ('class', 'submit')]
+РёР»Рё
+a attrs: [('href', '#'), ('class', 'close'), ('onclick', 'return close_edit_tags()')]
+Р·Р°РєСЂС‹С‚СЊ
+
+
+
+
+
+div attrs: [('class', 'sidebar_right')]
+
+div attrs: [('class', 'banner_300x500')]
+
+
+div attrs: [('id', 'adriver_banner_1043403436')]
+
+
+div attrs: [('class', 'block fast_navigator')]
+
+div attrs: [('class', 'title')]
+РҐР°Р±СЂР°РЅР°РІРёРіР°С‚РѕСЂ
+
+
+select attrs: [('name', 'category'), ('class', 'category_select')]
+
+РљР°С‚РµРіРѕСЂРёСЏ
+
+API
+
+РђРґРјРёРЅРёСЃС‚СЂРёСЂРѕРІР°РЅРёРµ
+
+Р‘Р°Р·С‹ РґР°РЅРЅС‹С…
+
+Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ
+
+Р”РёР·Р°Р№РЅ, РіСЂР°С„РёРєР°, Р·РІСѓРє
+
+Р–РµР»РµР·Рѕ Рё РіР°РґР¶РµС‚С‹
+
+РљРѕРјРїР°РЅРёРё Рё СЃРµСЂРІРёСЃС‹
+
+РњРµРЅРµРґР¶РјРµРЅС‚
+
+РџСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ
+
+РџСЂРѕРіСЂР°РјРјРЅРѕРµ РѕР±РµСЃРїРµС‡РµРЅРёРµ
+
+РўРµР»РµРєРѕРјРјСѓРЅРёРєР°С†РёРё
+
+Р¤СЂРµР№РјРІРѕСЂРєРё Рё CMS
+
+Р¤СЂРѕРЅС‚СЌРЅРґ
+
+Р Р°Р·РЅРѕРµ
 
 
 p attrs: []
-ЗАО «Газета.Ру». (1999-2013)
-—
-Главные новости дня.
-span attrs: []
-|
 
-a attrs: [('href', '/credits.shtml')]
-Информация об ограничениях.
+select attrs: [('name', 'hub'), ('disabled', None), ('class', 'hub_select')]
 
-span attrs: []
-|
+РҐР°Р±
 
-a attrs: [('href', '/feedback.shtml')]
-Обратная связь.
 
-span attrs: []
-|
-Распространяется бесплатно
+div attrs: [('class', 'buttons')]
 
-p attrs: []
-Редакция не несет ответственности за достоверность информации, содержащейся в рекламных объявлениях. Редакция не предоставляет справочной информации.
+input attrs: [('type', 'submit'), ('disabled', 'disabled'), ('value', 'РџРѕСЃРјРѕС‚СЂРµС‚СЊ')]
 
-p attrs: []
-Дизайн-макет: Сергей Максимов
 
-p attrs: []
-a attrs: [('href', 'http://www.rambler.ru/'), ('target', '_blank')]
-Партнер Рамблера
 
 
-div attrs: [('class', 'b-footer_sup_media')]
+div attrs: [('class', 'block live_broadcast')]
 
+div attrs: [('class', 'title')]
+РџСЂСЏРјРѕР№ СЌС„РёСЂ
+sup attrs: []
+span attrs: [('class', 'dotted tab open'), ('data-type', 'live_broadcast_activity')]
+РїРѕСЃС‚С‹
 
+span attrs: [('class', 'dotted tab '), ('data-type', 'qa_activity')]
+q
 
-div attrs: [('class', 'b-footer_sup_media'), ('style', 'float:left')]
+div attrs: [('class', 'live_broadcast_activity ')]
 
+div attrs: [('class', 'posts_list')]
 
-div attrs: [('class', 'rating_counters'), ('style', 'float:right')]
+div attrs: [('class', 'post_item')]
 
-div attrs: [('id', 'top100counter'), ('style', 'float:left;')]
+a attrs: [('href', 'http://habrahabr.ru/users/Mezomish/'), ('class', 'user_name')]
+Mezomish
 
-var _top100q = _top100q || [];
-_top100q.push(["setAccount", "46589"]);
-_top100q.push(["trackPageviewByLogo", document.getElementById("top100counter")]);
-(function(){
-var top100 = document.createElement("script");top100.type = "text/javascript";
-top100.async = true;
-top100.src = ("https:" == document.location.protocol?"https:":"http:")+"//st.top100.ru/top100/top100.js";
-var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(top100, s);
-})();
 
+a attrs: [('href', '/post/189328/#comment_6579994'), ('class', 'post_name')]
+Р’РѕСЂРѕРЅРµР¶РµС† Р·Р°РєР»СЋС‡РёР» СЃ Р±Р°РЅРєРѕРј РґРѕРіРѕРІРѕСЂ, РІРЅРµСЃСЏ СЃРІРѕРё РїСЂР°РІРєРё, Рё СЃРѕР±РёСЂР°РµС‚СЃСЏ РѕС‚СЃСѓРґРёС‚СЊ 24 РјРёР»Р»РёРѕРЅР° СЂСѓР±Р»РµР№
+span attrs: [('class', 'count')]
+725
 
-a attrs: [('href', 'http://www.liveinternet.ru/click;gazeta_all'), ('target', '_blank')]
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/rock/'), ('class', 'user_name')]
+rock
 
 
+a attrs: [('href', '/post/189432/#comment_6579992'), ('class', 'post_name')]
+РџРѕРЅРёРјР°РЅРёРµ РћРћРџ РЅР° РґР¶Р°РІР°СЃРєСЂРёРїС‚Рµ (ES5), С‡Р°СЃС‚СЊ 2
+span attrs: [('class', 'count')]
+8
 
-//<![CDATA[
-var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
-try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
-try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
-try{document.write('<a href="http://top.mail.ru/jump?from=8821">'+
-'<img src="http://d2.c2.b0.a0.top.mail.ru/counter?id=8821;t=109;js='+js+a+';rand='+Math.random()+
-'" alt="Рейтинг@Mail.ru" style="border:0;" height="18" width="88" \/><\/a>');}catch(e){}//]]>
 
-p attrs: []
-a attrs: [('href', 'http://top.mail.ru/jump?from=8821')]
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/dmitrykabanov/'), ('class', 'user_name')]
+dmitrykabanov
 
 
+a attrs: [('href', '/post/189364/#comment_6579990'), ('class', 'post_name')]
+Р’РµСЂРѕСЏС‚РЅРѕ, РјРѕСЏ РІРµР»РёС‡Р°Р№С€Р°СЏ РѕС€РёР±РєР°
+span attrs: [('class', 'count')]
+2
 
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/mix2000/'), ('class', 'user_name')]
+mix2000
 
- <!]]>
 
+a attrs: [('href', '/post/154795/#comment_6579988'), ('class', 'post_name')]
+РљР°Рє РјСѓР·С‹РєР° РІР»РёСЏРµС‚ РЅР° РїСЂРѕРґСѓРєС‚РёРІРЅРѕСЃС‚СЊ
+span attrs: [('class', 'count')]
+84
 
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/crackedmind/'), ('class', 'user_name')]
+crackedmind
 
- 
 
+a attrs: [('href', '/post/189472/#comment_6579986'), ('class', 'post_name')]
+РџРµСЂРІС‹Р№ СЂРµР»РёР· РЅР° РєР°РЅР°Р»Рµ Opera Developer
+span attrs: [('class', 'count')]
+1
 
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/SmivaL/'), ('class', 'user_name')]
+SmivaL
 
 
-var _comscore = _comscore || [];
-_comscore.push({ c1: "2", c2: "10463284" });
-(function() {
-var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-el.parentNode.insertBefore(s, el);
-})();
+a attrs: [('href', '/post/189430/#comment_6579984'), ('class', 'post_name')]
+РћР±Р·РѕСЂ Nexus 7 2-РіРѕ РїРѕРєРѕР»РµРЅРёСЏ (2013)
+span attrs: [('class', 'count')]
+45
 
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/Casus/'), ('class', 'user_name')]
+Casus
 
 
+a attrs: [('href', '/post/189466/#comment_6579982'), ('class', 'post_name')]
+Canonical СЃРЅРёР¶Р°РµС‚ С†РµРЅСѓ РЅР° Ubuntu Edge РґРѕ 695$ РґРѕ РєРѕРЅС†Р° РєР°РјРїР°РЅРёРё
+span attrs: [('class', 'count')]
+1
 
 
-document.write('<img src="http://luxup.ru/tr/17110/&r='+escape(document.referrer)+'&t='+(new Date()).getTime()+'" width="1" height="1"/>');
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/asm0dey/'), ('class', 'user_name')]
+asm0dey
 
 
+a attrs: [('href', '/post/189404/#comment_6579980'), ('class', 'post_name')]
+Р—Р°РєСЂС‹РІР°СЏ РјРµС‡С‚Сѓ
+span attrs: [('class', 'count')]
+10
 
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/ipswitch/'), ('class', 'user_name')]
+ipswitch
 
- 
 
+a attrs: [('href', '/post/188826/#comment_6579978'), ('class', 'post_name')]
+Р—Р°С‡РµРј РњР“РўРЎ РґРІРёРіР°РµС‚ PON
+span attrs: [('class', 'count')]
+198
 
-a attrs: [('href', 'http://ads.adfox.ru/202433/goDefaultLink?p1=biozy&p2=v'), ('target', '_top')]
 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/terrance/'), ('class', 'user_name')]
+terrance
 
 
+a attrs: [('href', '/post/189454/#comment_6579974'), ('class', 'post_name')]
+РљС‚Рѕ СѓРјРЅРµРµ?
+span attrs: [('class', 'count')]
+10
 
-_green.defineSlot('8984', [1, 1], '<DIV_ID>')
 
-div attrs: [('id', '<DIV_ID>')]
 
-_green.display('<DIV_ID>')
+div attrs: [('class', 'all')]
+a attrs: [('href', '/posts/')]
+РІСЃРµ РїРѕСЃС‚С‹
 
 
-(new Image).src=("https:"==document.location.protocol?"https:":"http:")+"//autocontext.begun.ru/analytics?target_id=0&counter_id=0&url="+encodeURIComponent(document.URL)+"&ref="+encodeURIComponent(document.referrer)+"&rnd="+Math.random();
+div attrs: [('class', 'qa_activity hidden')]
 
- 
+div attrs: [('class', 'posts_list')]
 
- 
+div attrs: [('class', 'post_item')]
 
+a attrs: [('href', 'http://habrahabr.ru/users/jimpanzer/'), ('class', 'user_name')]
+jimpanzer
 
 
+a attrs: [('href', 'http://habrahabr.ru/qa/44816/#answer_168806'), ('class', 'post_name')]
+РЎР°РјРѕРїСЂРѕРёР·РІРѕР»СЊРЅР°СЏ Р±Р»РѕРєРёСЂРѕРІРєР° SSD ATA-РїР°СЂРѕР»РµРј?
+span attrs: [('class', 'count')]
+2
 
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/opium/'), ('class', 'user_name')]
+opium
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44798/#comment_212748'), ('class', 'post_name')]
+Р“РґРµ РёСЃРєР°С‚СЊ РёСЃРїРѕР»РЅРёС‚РµР»СЏ РЅР° РЅРµР±РѕР»СЊС€РѕР№ РєСѓСЃРѕРє РєРѕРґР°?
+span attrs: [('class', 'count')]
+2
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/Ziklon/'), ('class', 'user_name')]
+Ziklon
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44818/#comment_212746'), ('class', 'post_name')]
+РќРµ РІРєР»СЋС‡Р°РµС‚СЃСЏ РјРѕРЅРµС‚РёР·Р°С†РёСЏ РІ Youtube
+span attrs: [('class', 'count')]
+3
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/ks_ks/'), ('class', 'user_name')]
+ks_ks
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44710/#comment_212742'), ('class', 'post_name')]
+РљР°Рє РјРЅРµ СЃС‚Р°С‚СЊ РџРњРѕРј?
+span attrs: [('class', 'count')]
+9
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/piatachki/'), ('class', 'user_name')]
+piatachki
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44820/#comment_212740'), ('class', 'post_name')]
+РљР°Рє РѕС‚СЃРµС‡СЊ РїРѕСЃРµС‚РёС‚РµР»РµР№ СЃ РѕРїСЂРµРґРµР»РµРЅРЅРѕРіРѕ СѓСЂР»Р°?
+span attrs: [('class', 'count')]
+2
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/ValdikSS/'), ('class', 'user_name')]
+ValdikSS
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44814/#comment_212738'), ('class', 'post_name')]
+Р‘РµР·РѕР±РёРґРЅС‹Р№ Рё РѕС‡РµРЅСЊ РїРѕР»РµР·РЅС‹Р№ РјРЅРµ СЃР°Р№С‚ Р±Р»РѕРєРёСЂСѓРµС‚СЃСЏ Р•РґРёРЅС‹Рј Р РµРµСЃС‚СЂРѕРј. WTF?
+span attrs: [('class', 'count')]
+3
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/opium/'), ('class', 'user_name')]
+opium
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44792/#answer_168804'), ('class', 'post_name')]
+Proxmox, РїСЂРѕР±Р»РµРјР° СЃ РєР»Р°СЃС‚РµСЂРѕРј
+span attrs: [('class', 'count')]
+1
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/taliban/'), ('class', 'user_name')]
+taliban
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44796/#comment_212736'), ('class', 'post_name')]
+РћРґРёРЅ РїР»РѕС…РѕР№ РєРѕРјРјРµРЅС‚Р°СЂРёР№ вЂ” СЃРјРµСЂС‚СЊ С…Р°Р±СЂР°СЋР·РµСЂСѓ
+span attrs: [('class', 'count')]
+11
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/likeleto/'), ('class', 'user_name')]
+likeleto
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44812/#comment_212720'), ('class', 'post_name')]
+btsync, rsync, aerofs РёР»Рё owncloud, С‡С‚Рѕ РІС‹Р±СЂР°С‚СЊ РґР»СЏ СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёРё?
+span attrs: [('class', 'count')]
+2
+
+
+div attrs: [('class', 'post_item')]
+
+a attrs: [('href', 'http://habrahabr.ru/users/stavinsky/'), ('class', 'user_name')]
+stavinsky
+
+
+a attrs: [('href', 'http://habrahabr.ru/qa/44802/#comment_212718'), ('class', 'post_name')]
+РџРѕРґС‚РѕСЂРјР°Р¶РёРІР°РµС‚ Р¶С‘СЃС‚РєРёР№ РґРёСЃРє РІ РЅРѕСѓС‚Р±СѓРєРµ
+span attrs: [('class', 'count')]
+1
+
+
+
+div attrs: [('class', 'all')]
+a attrs: [('href', '/qa/')]
+РІСЃРµ РІРѕРїСЂРѕСЃС‹
 
 
 
