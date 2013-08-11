@@ -6,8 +6,10 @@ import urllib
 from html.parser import HTMLParser
 from html.entities import name2codepoint
 import html
-from htmlTags import interestingTags, badTags, notClosedTags
 import re
+from htmlTags import interestingTags, badTags, notClosedTags
+from stops import stops
+import math
 
 class HTMLNode:
 
@@ -31,7 +33,14 @@ class HTMLNode:
         #print('add tag', name)
 
     def __str__(self):
-        pass
+        string=''
+        
+        for child in self.childsAndData:
+            string+=str(child)
+        if self.name is not 'a':
+            return string
+        else:
+            return string.replase(' ','_')+'['+str(self.link)+']'
 
     def printNode(self,n):
         print(self.name, 'attrs:', self.attrs, file=self.file)
@@ -74,11 +83,64 @@ class HTMLNode:
                     s=self.childsAndData[i].cleaning()
                     self.data=self.data+str(s)
             self.sizeOfData=len(self.data)
-        print(self.sizeOfData)
         return self.data
 
     def analysis(self):
-        pass
+        childsResult=[]
+
+        def linkInfo(x):
+            return (-1*abs(math.log2(x/7))+5)/15+1
+
+        if self.childsAndData is not None:
+            for child in self.childsAndData:
+                if type(child) is HTMLNode:
+                    print(child)
+                    childsResult.extend(child.analysis())
+        
+        j=1
+        while j< len(childsResult)-1:
+            if childsResult[j-1]['sizeOfData']>childsResult[j]['sizeOfData']:
+                childsResult[j-1],childsResult[j]=childsResult[j],childsResult[j-1]
+                j-=1
+            else:
+                j+=1
+
+
+        for result in childsResult:
+            if result['maxDepth']>self.maxDepth:
+                self.maxDepth=result['maxDepth']
+        
+        if self.maxDepth>4:
+            return childsResult[-1]
+
+        numOfLinks=0
+        for child in self.childsAndData:
+            if type(child) is str:
+                for word in child.split(' '):
+                    if word in stops:
+                        self.sizeOfData+=0.5*len(child)
+                        print(word)
+            elif type(child) is HTMLNode:
+                if child.name is 'a':
+                    numOfLinks+=1
+                elif child.name is 'h1' or 'h2' or 'h3' or 'h4' or 'h5' or 'h6':
+                    self.sizeOfData+=0.7*len(str(child))
+                elif child.name is 'b' or 'i' or 'abbr' or 'acronym' or 'br' or 'cite' or 'code' or 'em' or 'q' or 's' or 'strong' or 'sub' or 'sup' or 'tt':
+                    self.sizeOfData+=0.5*child.sizeOfData
+        
+        if numOfLinks:
+            self.sizeOfData*=linkInfo(numOfLinks)
+
+        toReturn=[{
+                  'self':self,
+                  'maxDepth':self.maxDepth+1,
+                  'sizeOfData':self.sizeOfData
+                 }]
+
+        return toReturn
+
+
+
 
     def __del__(self):
         #print('start deleting',self.name)
@@ -94,8 +156,8 @@ class HTMLTree:
 
     def printTree(self):
         self.root.cleaning()
-        print('stop cleaning')
-        self.root.printNode(0)
+        print(str(self.root.analysis()[0]), file=self.file)
+
         self.file.close()
 
 
@@ -130,7 +192,7 @@ class MyParser(HTMLParser):
         name=tag.lower()
 
         if self.stack and name in interestingTags and name not in notClosedTags:
-            while self.stack and self.stack[-1].name!=name:
+            while self.stack and self.stack[-1].name is not name:
                     self.stack.pop()
 
     def handle_data(self, data):
