@@ -1,1 +1,1 @@
-{'maxDepth': 2, 'sizeOfData': 0.0, 'self': <__main__.HTMLNode object at 0x000000000350F748>}
+[http://ed.lenta.ru/news/2013/08/11/bolt/]

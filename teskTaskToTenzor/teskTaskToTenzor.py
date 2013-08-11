@@ -37,10 +37,10 @@ class HTMLNode:
         
         for child in self.childsAndData:
             string+=str(child)
-        if self.name is not 'a':
-            return string
+        if self.name == 'a':
+            return string.replace(' ','_')+'['+str(self.link)+']'
         else:
-            return string.replase(' ','_')+'['+str(self.link)+']'
+            return string
 
     def printNode(self,n):
         print(self.name, 'attrs:', self.attrs, file=self.file)
@@ -88,18 +88,18 @@ class HTMLNode:
     def analysis(self):
         childsResult=[]
 
-        def linkInfo(x):
-            return (-1*abs(math.log2(x/7))+5)/15+1
+        #def linkInfo(x):
+        #    return (-1*abs(math.log2(x/7))+5)/15+1
 
         if self.childsAndData is not None:
             for child in self.childsAndData:
                 if type(child) is HTMLNode:
-                    print(child)
-                    childsResult.extend(child.analysis())
+                    #print(child)
+                    childsResult.append(child.analysis())
         
         j=1
         while j< len(childsResult)-1:
-            if childsResult[j-1]['sizeOfData']>childsResult[j]['sizeOfData']:
+            if childsResult[j-1]['sizeOfData']<childsResult[j]['sizeOfData'] and j>0:
                 childsResult[j-1],childsResult[j]=childsResult[j],childsResult[j-1]
                 j-=1
             else:
@@ -110,7 +110,7 @@ class HTMLNode:
             if result['maxDepth']>self.maxDepth:
                 self.maxDepth=result['maxDepth']
         
-        if self.maxDepth>4:
+        if self.maxDepth>3:
             return childsResult[-1]
 
         numOfLinks=0
@@ -119,7 +119,7 @@ class HTMLNode:
                 for word in child.split(' '):
                     if word in stops:
                         self.sizeOfData+=0.5*len(child)
-                        print(word)
+                        #print(word)
             elif type(child) is HTMLNode:
                 if child.name is 'a':
                     numOfLinks+=1
@@ -128,14 +128,14 @@ class HTMLNode:
                 elif child.name is 'b' or 'i' or 'abbr' or 'acronym' or 'br' or 'cite' or 'code' or 'em' or 'q' or 's' or 'strong' or 'sub' or 'sup' or 'tt':
                     self.sizeOfData+=0.5*child.sizeOfData
         
-        if numOfLinks:
-            self.sizeOfData*=linkInfo(numOfLinks)
+        #if numOfLinks:
+        #    self.sizeOfData*=linkInfo(numOfLinks)
 
-        toReturn=[{
+        toReturn={
                   'self':self,
                   'maxDepth':self.maxDepth+1,
                   'sizeOfData':self.sizeOfData
-                 }]
+                 }
 
         return toReturn
 
@@ -156,7 +156,7 @@ class HTMLTree:
 
     def printTree(self):
         self.root.cleaning()
-        print(str(self.root.analysis()[0]), file=self.file)
+        print(str(self.root.analysis()['self']), file=self.file)
 
         self.file.close()
 
@@ -192,8 +192,7 @@ class MyParser(HTMLParser):
         name=tag.lower()
 
         if self.stack and name in interestingTags and name not in notClosedTags:
-            while self.stack and self.stack[-1].name is not name:
-                    self.stack.pop()
+            self.stack.pop()
 
     def handle_data(self, data):
         if len(self.stack)>0:
@@ -265,6 +264,6 @@ class Logic:
 
 if __name__=="__main__":
     #url=str(input("What's url?\n"))
-    parse=Logic('habrahabr.ru')
+    parse=Logic('http://lenta.ru/news/2013/08/11/bolt/')
     
     input()
